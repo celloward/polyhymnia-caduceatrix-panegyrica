@@ -26,7 +26,7 @@ i = { \bar "'" }
 %Chorus Vocalis 1
 cantusONEnotes = {
   \clef "soprano"
-  g'1\f g' g' g'2( fis' g' a' b'1) \i b' b' c'' b'2( a' b' c'' d''1) a'\p b' c'' a'\breve r1 r\breve. c''1\f c'' c'' \i 
+  \global g'1\f g' g' g'2( fis' g' a' b'1) \i b' b' c'' b'2( a' b' c'' d''1) a'\p b' c'' a'\breve r1 r\breve. c''1\f c'' c'' \i 
   c''2( b' c'' d'' e''1) \i c'' c'' c'' c''2( b' c'' d'' e''1) d''\p e'' f'' d''\breve r1 r\breve. a'1 b' c'' a'\breve r1 d''1\f b' e'' d''\breve r1
 %pg 2
   a'2\p d' e'1 fis' g'\breve r1 r\breve. a'1. d'2 e' fis' g'\breve g'1 a' a' b' c'' b' a' a'\breve r1 r r a'\p c'' b' a' a'\breve r1
@@ -61,7 +61,7 @@ cantusONEnotes = {
 
 altoONEnotes = {
   \clef "alto"
-  d'1\f e' g' g'\breve. g'1 g' g' g'\breve. fis'1\p g' e' f'\breve r1 r\breve. g'1\f g' f' g'\breve. g'1
+  \global d'1\f e' g' g'\breve. g'1 g' g' g'\breve. fis'1\p g' e' f'\breve r1 r\breve. g'1\f g' f' g'\breve. g'1
   c' f' e'\breve. g'1\p g' a' g'\breve r1 r\breve. f'1 g' g' f'\breve r1 fis'1\f g' g' fis'\breve r1 e'2\p g' e'1 d' \i d' r1 r r\breve. d'1.\f d'2 c' d' \i
   d'\breve d'1 fis' fis' g' a'2 e' g'1( e') fis'\breve r1 r r f'1\p a'2 e' g'( f' e'1) d'\breve r1 r\breve. r1 r gis'1 e' e' e' d' r1 r \i
 %pg2
@@ -93,7 +93,7 @@ altoONEnotes = {
 
  tenorONEnotes = {
   \clef "tenor"
-  b1\f b e' \i b2( a b c' d'1) \i d' e' e' d'2( e' d' c' b1) \i d'\p d' c c\breve r1 r\breve.
+  \global b1\f b e' \i b2( a b c' d'1) \i d' e' e' d'2( e' d' c' b1) \i d'\p d' c c\breve r1 r\breve.
 %pg 2
   e'1\f e' a e'1.( d'2 c'1) e' e' a c'\breve. b1\p c' c' b\breve r1 r\breve. d'1 d' e' d'\breve r1 a1\f g1. e2 a\breve r1
   c'2\p b a1 a b\breve r1 r\breve. fis1.\f g2 c' a b\breve b1 a d' d' e'1. d'2 cis'1 d'\breve r1 r r d'1\p
@@ -128,7 +128,7 @@ altoONEnotes = {
 
 bassONEnotes = {
   \clef bass
-  g1\f e c g\breve. g1 e c g,\breve. d1\p g c f\breve r1 r\breve. c1\f c f c\breve r1
+  \global g1\f e c g\breve. g1 e c g,\breve. d1\p g c f\breve r1 r\breve. c1\f c f c\breve r1
   %pg 2
   c1 c f c\breve. g1\p c f g\breve r1 r\breve. d1 g, c d\breve r1 d1\f g, c d\breve r1 a,2\p b, c1 d g\breve r1 r\breve.
   d1.\f b,2 a, d g,\breve g,1 d1. c2 b,1 a, g, a, d\breve r1 r r d1\p a g a d\breve r1 r\breve. r1 r e1
@@ -158,7 +158,7 @@ bassONEnotes = {
 % %Chorus Vocalis 2
 cantusTWOnotes = {
   \clef "soprano"
-  b'1\f b' c'' d''\breve. g'1 g' g' \i g'2( fis' g' a' b'1) r\breve. a'1.\p b'2 c''1 a'\breve r1 g'1\f g' a'
+  \global b'1\f b' c'' d''\breve. g'1 g' g' \i g'2( fis' g' a' b'1) r\breve. a'1.\p b'2 c''1 a'\breve r1 g'1\f g' a'
   g'( a'2 b' c''1) \i g'1 a' a' g'( a'2 b' c''1) r\breve. d''1.\p e''2 f''1 d''\breve r1 r\breve. r a'1\f b' c'' a'\breve r1 r\breve. d''1\p g' a'2 b' c''\breve r1 r\breve. r r r r r r r1 r a'1
   b'1. b'2 c''1 d'' c'' b' \i a' r a'\p \i d'' c'' b' a' r r r\breve. r1 r c''1\f a' d'' d'' \duple c''4( d'' e'' d'' c''2 d''4 b' e''2) d'' e''1 d''\breve\fermata \l r\breve^\markup {"Sinfonia"} r r r r r r r r r r 
   r2 r4 g' b'16( c'' d'' c'' b'8) c'' d''4 g'\p b'16( c'' d'' c'' b'8) c'' d''4 g'\f g''8( f''16 e'' d'' c'' b') a' g'4 c'' \i 
@@ -220,7 +220,7 @@ altoTWOnotes = {
 
 tenorTWOnotes = {
   \clef "tenor"         
-  g1\f g g b\breve. b1 b e g\breve. r\breve. c'1\p a g f\breve r1 c'1\f c' c' c'2 g g f e1 \i
+  \global \f g g b\breve. b1 b e g\breve. r\breve. c'1\p a g f\breve r1 c'1\f c' c' c'2 g g f e1 \i
   e1 e f g2( a g f e1) r\breve. b1\p b c' b\breve r1 r\breve. r d'1\f d' e' a\breve r1 r\breve. b1.\p b2 a d' c'\breve r1 r\breve. r r r r r r r1 r d' b1. b2
   g1 a a gis \i a r a\p \i a a gis \i a r r r\breve. r1 r c'1\f c' d' b \duple g2. f4 e2 g4 d a2 a a1 a\breve^\fermata \l
   r\breve^\markup {"Sinfonia"} r r r r r r r r r r \l r1 r r2 g2\f g2.( a4) a2 a2.( gis8 fis gis2) a r4 g4\p g a2 gis4 a1 r r2 a2\f a1. a2 a1 a2
@@ -254,7 +254,7 @@ tenorTWOnotes = {
 
 bassTWOnotes = {
   \clef bass
-  g1\f e c g,\breve. g1 e c g,\breve. r\breve. f1\p f, c f,\breve r1 c1\f c f,
+  \global g1\f e c g,\breve. g1 e c g,\breve. r\breve. f1\p f, c f,\breve r1 c1\f c f,
   c\breve. c1 a, f, c\breve. r\breve. g1\p g f g\breve r1 r\breve. r d1\f g, c d\breve r1 r\breve. g1.\p e2 f g c\breve r1 r\breve. r r r r r r  r1 r d1\f 
   g1. g2 e1 d a, e \i a, r1 a1\p \i d a, e a, r1 r r\breve. r1 r c1\f f d g \duple c1. g,2 a,\breve d \l r\breve^\markup {"Sinfonia"} r r r r r r r r r r \l
   r1 r r2 g,2\f c2.( a,4) a,4.( b,8 c4 d e2) e, a, r4 g,4\p c a, e,2 a,1 r1 r2 a,2\f f2. d4 d2 d a,1 d2
@@ -289,16 +289,35 @@ bassTWOnotes = {
 % cantusTWOINSTwords = \lyricmode {
 
 % }
-% bassINSTnotes = {
-%   \clef bass
-
-% }
+bassINSTnotes = {
+  \clef bass
+  \global r\breve. r g1\f e c g\breve. r\breve. r f1\p f, c c\breve r1 r\breve. c1\f a, f c\breve. r\breve. r g1\p g, d d\breve r1
+  d1 d a d\f g c d\breve r1 r\breve. r c1.\p a,2 b, c d\breve r1 r\breve. r r1 r a1\f d1. c2 b,1 a, g, d a, r1 a,1\p \i
+  d1. e2 fis1 g\breve r1 r\breve. r r1 r e1 a1. g2 a1 d r1 r r r c1\f f d g \duple c1. g,2 a,\breve d \l
+  g2 g4 b, c2 g, d r4 d8 c b,4 a,8 g, d2 g, r4 b,8 c d2. f8 g a2 a, d1 d4 d8 d d4 b, a,2 e2. c4 g2. e8 f
+  g2 c r4 g4 c'8 g c' b c'4 b8 a g2 b,4 c d8 a d cis d4 c8 b, a,2. b,4 c8 g c b, c4 b,8 a, g,2 g
+  d1 d g,^\fermata \l r1 g1\p g2 g,4 g\f c2. a,4 a,2 a e1 a,2 r4 g,4\p c a, e2 a,1 r1 r2 a2\f f2. d4 d2 d a1 d2 r2
+  r2 r4 a4\p f d a2 d1 r1 r2 g2\f c4. c8 g4 g a8 a e4 a e\p a8 a e4 a2 r1 r2 r4 a4 d d a2 d r4 a,4 d d a2 d1
+  r2 e2\f a,1. a,2 e e, a,1 r1 r r r r r r r r r r r r r r r r r r r r r2 r4 g4 d e d2 g,1 r1 r r r2 r4 c4 g a g2 c1 r1 r r 
+  r2 r4 a4 e c d e a,1 r1 r r r2 r4 d4 a f g a d1 r1 r2 c2\f g g, d b, d\breve g, r1 r r r r r2 g,2\p c1 g,2 g, a,1 e, a,
+  r2 c1\f d2 g,\breve a,1 r4 c2 d4 bes,1 f2 c a, g,4 g fis2 g d1 d2 r2 r1 r2 r4 c4\p f4. c8 f4 g c c r2 r1
+%pg2
+  r2 r4 d4 g4. a8 g4 e d d r2 r1 r2 r4 e4 a4. e8 a4 g c c r4 c4\f f2. e4 d2 g c1 f
+  r2 f4 e d2 g, a,1 d r2 e2 a, a, e,1 a, r2 c2 g, g4. f8 e4 d c2 d1 g, r2 g,2 g4 f e d
+  c4. b,8 a,2 d1 d,\breve g,\longa^\fermata \l
+  \global r\breve.^\markup {\bold {"Qui tollis"}} d1 d a d\breve r1 d1 d a d\breve r1 r\breve. r1 r e1 a a e a,\breve r1
+  d1 d a d\breve g1 c a, e \duple a,1 r2 f2 c1 g, d1. d2 g,1 r1 r r a1. e1 f c d a,2 c d1 e2 a,1 r1
+  r2 e1 b, c g, a, e,2 g, a,1 b,2 e,1 f, c d a, a, \l e2\f d g4. f8 e4. d8 c2 d g1 r1 r r r
+  d2 b,4 e c2 d g, r2 r1 r r r2 d2 g4 e a a, d1 d r1 r r r d2 d d1 g, r2 d4 b, a,2 e a,1 d2. g,4 a,2 d g1 r1
+  r2 g,4 g, a,2 d g,1 c2 b, d\breve g,1 r1 r r r r r r r r r r r r r r r r a2 g c4. d8 e4 f g2 c r1 r r r r g2 f4 c g f8 e d4 e f2 g d\breve g,1 r1
+  d\breve g1 r1 c\breve. c\breve g,\breve. g,\longa^\fermata \bar "|."
+}
 % bassINSTwords = \lyricmode {
 
 % }
 continuonotes =  {
   \clef "bass"
-  g1\f e c g,\breve. \l g1 e c g,\breve. \l d1\p g c f f, c \l f f, c c\f c f, \l
+  \global g1\f e c g,\breve. \l g1 e c g,\breve. \l d1\p g c f f, c \l f f, c c\f c f, \l
   c\breve. c1 a, f, \l c\breve. g1\p c f \l g g f g g, d \l d g, c d d a \l d\f g, c d\breve r1 \l a,2\p b, c1 d \l
   g1. e2 f g c1. a,2 b, c \l d1.\f b,2 a, d g,\breve g,1 \l d1. c2 b,1 a, g, a, \l d1. c2 b,1 a, g, d\p \l
   a, g a d\breve d1\f \l g1. g2 e1 d a, e\p \l a, a2 g a1 d a, e \l a, a2 g a1 d a e \l a,\breve c1\f f d g \l
@@ -336,72 +355,72 @@ continuonotes =  {
 
 \score {
 <<
-  %   %Chorus Vocalis 1
-    \new ChoirStaff = "Vocalis 1" <<
-      \new Staff <<
-        \new Voice = "cantus 1" <<
-          \global
-          \cantusONEnotes
-        >>
-       %  \lyricsto "cantus 1" \new Lyrics \cantusONEwords
-      >>
-      \new Staff <<
-        \new Voice = "tenor 1" <<
-          \global
-          \tenorONEnotes
-        >>
-  %       \lyricsto "tenor 1" \new Lyrics \tenorONEwords
-      >>
-      \new Staff <<
-        \new Voice = "alto 1" <<
-          \global
-          \altoONEnotes
-        >>
-  %       \lyricsto "alto 1" \new Lyrics \altoONEwords
-      >>
-      \new Staff <<
-        \new Voice = "bass 1" <<
-          \global
-          \bassONEnotes
-        >>
-  %       \lyricsto "bass 1" \new Lyrics \bassONEwords
-      >>
-    >>
-
-    %Chorus Vocalis 2
-    \new ChoirStaff = "Vocalis 2" <<
-      \new Staff <<
-        \new Voice = "cantus 2" <<
-          \global
-          \cantusTWOnotes
-        >>
-  %       \lyricsto "cantus 2" \new Lyrics \cantusTWOwords
-      >>
-      \new Staff <<
-        \new Voice = "alto 2" <<
-          \global
-          \altoTWOnotes
-        >>
-  %       \lyricsto "alto 2" \new Lyrics \altoTWOwords
-      >>
-      \new Staff <<
-        \new Voice = "tenor 2" <<
-          \global
-          \tenorTWOnotes
-        >>
-  %       \lyricsto "tenor 2" \new Lyrics \tenorTWOwords
-      >>
-      \new Staff <<
-        \new Voice = "bass 2" <<
-          \global
-          \bassTWOnotes
-        >>
-  %       \lyricsto "bass 2" \new Lyrics \bassTWOwords
-      >>
-    >>
+%   %   %Chorus Vocalis 1
+%     \new ChoirStaff = "Vocalis 1" <<
+%       \new Staff <<
+%         \new Voice = "cantus 1" <<
+%           \global
+%           \cantusONEnotes
+%         >>
+%        %  \lyricsto "cantus 1" \new Lyrics \cantusONEwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "tenor 1" <<
+%           \global
+%           \tenorONEnotes
+%         >>
+%   %       \lyricsto "tenor 1" \new Lyrics \tenorONEwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "alto 1" <<
+%           \global
+%           \altoONEnotes
+%         >>
+%   %       \lyricsto "alto 1" \new Lyrics \altoONEwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "bass 1" <<
+%           \global
+%           \bassONEnotes
+%         >>
+%   %       \lyricsto "bass 1" \new Lyrics \bassONEwords
+%       >>
+%     >>
+% 
+%     %Chorus Vocalis 2
+%     \new ChoirStaff = "Vocalis 2" <<
+%       \new Staff <<
+%         \new Voice = "cantus 2" <<
+%           \global
+%           \cantusTWOnotes
+%         >>
+%   %       \lyricsto "cantus 2" \new Lyrics \cantusTWOwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "alto 2" <<
+%           \global
+%           \altoTWOnotes
+%         >>
+%   %       \lyricsto "alto 2" \new Lyrics \altoTWOwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "tenor 2" <<
+%           \global
+%           \tenorTWOnotes
+%         >>
+%   %       \lyricsto "tenor 2" \new Lyrics \tenorTWOwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "bass 2" <<
+%           \global
+%           \bassTWOnotes
+%         >>
+%   %       \lyricsto "bass 2" \new Lyrics \bassTWOwords
+%       >>
+%     >>
 
   %   %Chorus Instrumentalis
-  %   \new ChoirStaff = "Instrumentalis" <<
+    \new ChoirStaff = "Instrumentalis" <<
   %     \new Staff <<
   %       \new Voice = "cantus inst 1" <<
   %         \global
@@ -416,14 +435,14 @@ continuonotes =  {
   %       >>
   %       \lyricsto "cantus inst 2" \new Lyrics \cantusTWONSTwords
   %     >>
-  %     \new Staff <<
-  %       \new Voice = "bass inst" <<
-  %         \global
-  %         \bassINSTnotes
-  %       >>
+      \new Staff <<
+        \new Voice = "bass inst" <<
+          \global
+          \bassINSTnotes
+        >>
   %       \lyricsto "bass inst" \new Lyrics \bassINSTwords
-  %     >>
-    % >>
+      >>
+    >>
 
   %   Continuo
   \new Staff <<
