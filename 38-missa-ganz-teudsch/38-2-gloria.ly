@@ -290,7 +290,7 @@ cantusONEINSTnotes = {
   r1 r r2 d''2 c''1. c''2 b'1 a'2 r4 b'4\p c''4. c''8 b'2 a'1 r1 r2 c''2 f''1. f''2 e''1 fis''2 r2 r r4 e''4 f''4. f''8 e''2 fis''1 r1
   r2 g''2\f e''4. g''8 g''4 d'' g''8 e'' e''4 cis'' e''\p \i e''8 e'' e''4 cis''2 r1 r2 r4 c''4 d'' d'' e''2 fis'' r4 e''4 d'' d'' e''2 fis''1
   r2 e''2\f e''1. e''2 e''1 e'' r1 r r r r r r r r r r r r r r r r r r r r r2 r4 g''4\p fis'' g'' a''8 g'' a''4 g''1 r1 r r r2 r4 c''4 b' c'' d''8 c'' d''4 e''1 r1 r r
-  r2 r4 a'4 gis' a' b'8 d'' b'4 cis''1 r1 r r r2 r4 d''4 cis'' d'' e''8 g'' e''4 fis''1 r1 r2 e''2\f g'' g''4 d'' fis''2 d'' d'' a'' a''1 a''\breve r1 r r r r
+  r2 r4 a'4 gis' a' b'8 d'' b'4 cis''1 r1 r r r2 r4 d''4 cis'' d'' e''8 g'' e''4 fis''1 r1 r2 e''2\f g'' g''4 d'' fis''2 d'' d'' a'' a''1 g''\breve r1 r r r r
   r2 b'2\p c''4 d'' e'' d''8 c'' \i d''4 e''8 c'' d'' c'' b'4 e''4. d''8 c''4 d'' e''2 e''2 e''1 r2 c''1\f a'2 d'' d''1 d''2 cis''1
   r4 e''2 f''4 d''2. f''2 c''4. d''8 e''2 a'4 d''2. a'4 d''2. e''4 fis''2 fis'' r2 r1 r2 r4 e''4\p c''4. c''8 c''4 g'' e'' e'' r2 r1 r2 r4 d''4 d''4. a'8
   d''4 g''8 e'' fis''4 fis'' r2 r1 r2 r4 e''4 e''4. e''8 e''4 b' e'' e'' r4 e''4\f \i c''2. c''4 f'' d''2 g''4 e''4. f''8 g''2 a''1
@@ -395,93 +395,93 @@ continuonotes =  {
 
 \score {
 <<
-%   %   %Chorus Vocalis 1
-%     \new ChoirStaff = "Vocalis 1" <<
-%       \new Staff <<
-%         \new Voice = "cantus 1" <<
-%           \global
-%           \cantusONEnotes
-%         >>
-%        %  \lyricsto "cantus 1" \new Lyrics \cantusONEwords
-%       >>
-%       \new Staff <<
-%         \new Voice = "tenor 1" <<
-%           \global
-%           \tenorONEnotes
-%         >>
-%   %       \lyricsto "tenor 1" \new Lyrics \tenorONEwords
-%       >>
-%       \new Staff <<
-%         \new Voice = "alto 1" <<
-%           \global
-%           \altoONEnotes
-%         >>
-%   %       \lyricsto "alto 1" \new Lyrics \altoONEwords
-%       >>
-%       \new Staff <<
-%         \new Voice = "bass 1" <<
-%           \global
-%           \bassONEnotes
-%         >>
-%   %       \lyricsto "bass 1" \new Lyrics \bassONEwords
-%       >>
-%     >>
-% 
-%     %Chorus Vocalis 2
-%     \new ChoirStaff = "Vocalis 2" <<
-%       \new Staff <<
-%         \new Voice = "cantus 2" <<
-%           \global
-%           \cantusTWOnotes
-%         >>
-%   %       \lyricsto "cantus 2" \new Lyrics \cantusTWOwords
-%       >>
-%       \new Staff <<
-%         \new Voice = "alto 2" <<
-%           \global
-%           \altoTWOnotes
-%         >>
-%   %       \lyricsto "alto 2" \new Lyrics \altoTWOwords
-%       >>
-%       \new Staff <<
-%         \new Voice = "tenor 2" <<
-%           \global
-%           \tenorTWOnotes
-%         >>
-%   %       \lyricsto "tenor 2" \new Lyrics \tenorTWOwords
-%       >>
-%       \new Staff <<
-%         \new Voice = "bass 2" <<
-%           \global
-%           \bassTWOnotes
-%         >>
-%   %       \lyricsto "bass 2" \new Lyrics \bassTWOwords
-%       >>
-%     >>
+  %   %Chorus Vocalis 1
+    \new ChoirStaff = "Vocalis 1" <<
+      \new Staff <<
+        \new Voice = "cantus 1" <<
+          \global
+          \cantusONEnotes
+        >>
+       %  \lyricsto "cantus 1" \new Lyrics \cantusONEwords
+      >>
+      \new Staff <<
+        \new Voice = "tenor 1" <<
+          \global
+          \tenorONEnotes
+        >>
+  %       \lyricsto "tenor 1" \new Lyrics \tenorONEwords
+      >>
+      \new Staff <<
+        \new Voice = "alto 1" <<
+          \global
+          \altoONEnotes
+        >>
+  %       \lyricsto "alto 1" \new Lyrics \altoONEwords
+      >>
+      \new Staff <<
+        \new Voice = "bass 1" <<
+          \global
+          \bassONEnotes
+        >>
+  %       \lyricsto "bass 1" \new Lyrics \bassONEwords
+      >>
+    >>
 
-  %   %Chorus Instrumentalis
+    %Chorus Vocalis 2
+    \new ChoirStaff = "Vocalis 2" <<
+      \new Staff <<
+        \new Voice = "cantus 2" <<
+          \global
+          \cantusTWOnotes
+        >>
+  %       \lyricsto "cantus 2" \new Lyrics \cantusTWOwords
+      >>
+      \new Staff <<
+        \new Voice = "alto 2" <<
+          \global
+          \altoTWOnotes
+        >>
+  %       \lyricsto "alto 2" \new Lyrics \altoTWOwords
+      >>
+      \new Staff <<
+        \new Voice = "tenor 2" <<
+          \global
+          \tenorTWOnotes
+        >>
+  %       \lyricsto "tenor 2" \new Lyrics \tenorTWOwords
+      >>
+      \new Staff <<
+        \new Voice = "bass 2" <<
+          \global
+          \bassTWOnotes
+        >>
+  %       \lyricsto "bass 2" \new Lyrics \bassTWOwords
+      >>
+    >>
+
+    %Chorus Instrumentalis
     \new ChoirStaff = "Instrumentalis" <<
       \new Staff <<
         \new Voice = "cantus inst 1" <<
           \global
           \cantusONEINSTnotes
         >>
-  %       \lyricsto "cantus inst 1" \new Lyrics \cantusONEINSTwords
+      %   \lyricsto "cantus inst 1" \new Lyrics \cantusONEINSTwords
       >>
-  %      \new Staff <<
-  %       \new Voice = "cantus inst 2" <<
-  %         \global
-  %         \cantusTWOINSTnotes
-  %       >>
-  %       \lyricsto "cantus inst 2" \new Lyrics \cantusTWONSTwords
-  %     >>
-%       \new Staff <<
-%         \new Voice = "bass inst" <<
+%        \new Staff <<
+%         \new Voice = "cantus inst 2" <<
 %           \global
-%           \bassINSTnotes
+%           \cantusTWOINSTnotes
 %         >>
-%   %       \lyricsto "bass inst" \new Lyrics \bassINSTwords
+%         % \lyricsto "cantus inst 2" \new Lyrics \cantusTWONSTwords
 %       >>
+      \new Staff <<
+        \new Voice = "bass inst" <<
+          \global
+          \bassINSTnotes
+        >>
+  %       % \lyricsto "bass inst" \new Lyrics \bassINSTwords
+      >>
     >>
 
   %   Continuo
