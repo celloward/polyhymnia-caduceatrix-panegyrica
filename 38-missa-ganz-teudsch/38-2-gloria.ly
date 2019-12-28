@@ -36,7 +36,7 @@ cantusONEnotes = {
   e''4 e''\f a''8 g''16( f'' e'' d'' c'') b' \i a'4 a'\p a''8 g''16( f'' e'' d'' c'') b' \l a'2 r2 \l r1 r r r r r r2 b'\f c''4. c''8 b'4 b' \i
   c''8 c'' b'4 a' b'\p \i c''8 c'' b'4 a'2 r1 r2 r4 e''\f f'' f'' e''8.( d''16 e''4) d''2 r4 e'' f'' f'' e''8.( d''16 e''4) d''1 r2 b'
   c''1. c''2 b'4.( a'8 b'2) a'1 r2 a' d''2. c''4 b'2 a' g' f' e'1 d' r\breve r1 r2 c'' d''2. c''4 b'2 a' g' f' e'1 e' r 
-  r r2 d' g'4 g' fis' g' a'2 g'4 d'\p \i g' g' fis' g' a'8( g' a'4) g'2 r1 r r r r r r2 r e'\f a'4 a' gis' a' bes'2 a'4 e'\p \i
+  r r2 d' g'4 g' fis' g' a'2 g'4 d'\p \i g' g' fis' g' a'8( g' a'4) g'2 r1 r r r r r r r2 e'\f a'4 a' gis' a' bes'2 a'4 e'\p \i
 %pg 3
   a'4 a' gis' a' b'8( a' b'4) a'2 r1 r r r r r r r2 d'2 g'2.( a'4 b'2 c'') d''1. d''2 d''2. c''8( b' a'4 b'8 c'' d''2) d''1 r2 d''2 c''4( b' a'8 b' c''4) \i
   b'4( a' g'8 a' b'4) \i a'( g'8 f' e'4 fis' gis' a') gis'2 a'1 r1 r r r r r g'1. f'2 bes'\breve a'1 r4 g'2 f'4 bes'1 a'2 g' a'(
@@ -59,9 +59,34 @@ cantusONEnotes = {
 
 % }
 
-% altoONEnotes = {
+altoONEnotes = {
+  \clef "alto"
+  d'1\f e' g' g'\breve. g'1 g' g' g'\breve. fis'1\p g' e' f'\breve r1 r\breve. g'1\f g' f' g'\breve. g'1
+  c' f' e'\breve. g'1\p g' a' g'\breve r1 r\breve. f'1 g' g' f'\breve r1 fis'1\f g' g' fis'\breve r1 e'2\p g' e'1 d' \i d' r1 r r\breve. d'1.\f d'2 c' d' \i
+  d'\breve d'1 fis' fis' g' a'2 e' g'1( e') fis'\breve r1 r r f'1\p a'2 e' g'( f' e'1) d'\breve r1 r\breve. r1 r gis'1 e' e' e' d' r1 r \i
+%pg2
+  r1 r e'1 a'\breve gis'1 a' e' e'\f \i f' f' g' \duple g'1. g'2 e'( f' e'1) fis'\breve \l d'2^\markup {"Sinfonia"} d'4 g g2 d' d'
+  r4 d'4 d'2 d' d' g4 d'8 e' \i f' g' a'4 d'2 c'4 d' e'8 a a' g' fis'1 d'4 d'8 d' d'4 d' e'2 e'4. fis'8 g'2 g'2. g'4 g'2 g'
+  r4 g'4 e'8 d' e' g' e'4 fis' g'8 d' d'4 g' e' \i fis'8 e' d' e' fis'4 e'8 d' \i e'2. d'4 e'8 b c' d' e'4 d'8 c' \i
+  d'4 c' d'2. a4 b g a b a2 g1^\fermata \l r1 r r r r r r r r r r r r r r r r r r r r r r r r r r r r r2 gis'2\f a'4( e' a'2) a' a'2.(gis'8 fis' gis'2) a'4 e' a' g'
+  f'2. e'4 d'4.( e'8 f'4) e' g'2 d' r1 r r r r r r2 e'2 f' f' f'2. e'4 d'2 d' r1 r r r r2 f'2 e'4 d' c' d'
+  d'8( e' fis'4) g' fis'\p \i d' e' c' d' d'8( e' fis'4) g'2 r1 r r r r r r r2 g'2\f f'4 e'2 d'4 \i b e' cis' e'\p \i
+  f'4 f' e' e' e'2 e' r1 r r r r r r r r r2 e'2 d'4( c'4 b8 c' d'4) d'2. e'4 fis'( g' a' d') d'1 d' r1 r r r r r r r r r r r e'2.( d'4 c'2) f
+  ais4( g g'2) g'2.( f'4 e'1) r4 g2 d'4 d'4.( e'8 f'2) f' e'2. c'4( b8 c' d'2) d'4 d'2 d'1( d'2) r4 d'4 fis'4. g'8
+  fis'4 g' e' e' r2 r1 r2 r4 fis'4 g'4.( a'8 g'4) e' fis' fis' r2 r1 r2 r4 gis'4 a' e' a' a' gis' gis' r2 r1 r2 e'2 f'2.( g'4 f'2) g'1 c' f'2
+  r2 f'1 g'2 e'1 fis' r2 gis'2 a' a' gis'1 a' r2 e'2 g' g' g' g'2.( fis'8 e' fis'2) g'1 r2 d'2 d' g' g' a'1( g' fis'4 e' fis'1) g'\longa^\fermata \l
+%pg3
+  \global d'1 f' e' f'\breve r1 d'1 f' e' d'\breve r1 r\breve. r1 r e'1 e' e' e' e'\breve r1 r\breve. d'1 f' e' d'\breve d'1 e' e' e'
+  \duple e'1 f' g'1. g2 a a a d' d'1 r1 r r c'1. b1 a2 c'1 c'2 a2.( b4 c'1) a2 d'4. a8 e'4 b a1 r1
+  r2 g'1 g'2 fis' e'4 g' g'1. e'2 e'4.( fis'8 g'2.) g'4 e' a' a'2( gis'4 fis' \l gis'1) r1 e'1 a'2 a' a'1 a' \l r1 r r r2 r4 g'4\p c'2 c'
+  b4.( c'8 d'2) r1 r fis'2\f fis'4 g' a'8( g' g'2) fis'4 g'2 r2 r2 r4 g'4\p a'8( g' g'2) fis'4 g'1 r2 r4 d'4\f d' e' e' e'
+  d'( e' fis' g' a'2) d' d'\p g' fis'1 g' r1 r d'2\f d' d' g' r2 d'4 g' a'4. e'8 e'2 e'1 d'2. d'4 a4( e') d'2 d'1 r1
+  r2 d'2 a4 e' d'2 d'1 e'2 d'4 g d'\breve d'1 r1 d'2 d' g' g' r2 r4 d'4 d'2 d'4.( e'8 f'4 g' f'2) d' r2
+  r2 d'4\p( e' fis'2) g' e'\f e' a' a' r2 r4 e'4 e'2 e'4.( f'8 g'4 a' g'2) e' r2 r2 e'4\p( fis' gis'2) a' r1 r r
+  r4 g'2( f'8 e' d'2) e' r1 a'4( g'8 f' e'2) fis'1 r1 r r2 d'1 d'2 d'1 d' r1 a'4( g' fis' e' fis' g' a' d') d'1 r1
+  g'4( f' e' f' g' f' e' f' g' f' e' f' g'2) c' c'4( b8 a g4 a b\breve.) b\longa \bar "|."
 
-% }
+}
 % altoONEwords = \lyricmode {
 
 % }
@@ -77,7 +102,7 @@ cantusONEnotes = {
   r2 c'2 c'2.( d'4) d'2 d'2.( cis'8 b cis'2) d' r4 a4\p c' d'2 cis'4 d'2 r2 r r4 a b16( a g a b8) c' d'4 g\p \i
   b16( a g a b8) c' d'2 r\breve r2 r4 a4\f c'16( b a b c'8) d' e'4 a\p \i c'16( b a b c'8) d' e'2 r1 r\breve r1
   r2 e'2\f e'4.( d'8 c'4 b a8 b c' d' e'2.) e'4 e'2 e'1 r r2 a2 d'2. c'4 b2 a4 d'2 cis'4 cis'2 d'1 r\breve r
-  r2 a2 d'2. c'4 b2 a gis4 a b2 a1 r r r2 a2 c'4 g a b \i a( d') b a\p \i g g a b a( d') b2 r1 r r r r r r2
+  r2 a2 d'2. c'4 b2 a gis4 a b2 a1 r r r2 a2 c'4 g a b \i a( d') b a\p \i g g a b a( d') b2 r1 r r r r r r
   r2 c'2\f c'4 c' b a gis2 a4 c'\p \i c' d' b a gis8( a gis4) a2 r1 r r r r r r r r r2 g2\f b4( c' d'4.) g8
   a2 b a4( g fis g a g fis2) g1 r r r r r r r2 d'2\p c'4( b a8 b c'4) \i b4( a g8 a b4) a4( g8 f e4 fis)
 %pg 3
@@ -110,7 +135,7 @@ bassONEnotes = {
   a1. g2 a1 d r1 r r r a1 d a e a,\breve c1\f f d g \duple c1. g,2 a,\breve d \l r\breve^\markup {"Sinfonia"} r r r r r r r r r r \l g1\p g2 g, g,1 r1 r r r r 
   a1 a2 a, a,1 r1 r r r r r r2 d2 g g, g,1 r1 r r2 a2 a a, a,1 r1 r r r r2 e2\f a1. a2 e1 a,2 a, d2. c4
   b,2( a, g,) fis, g, d a,1 d r1 r r r2 a,2 d d d1. d2 e1 a, r1 r r2 d2 c4 b, a, g, d2 g,4 d\p
-  b, c a, g, d2 g, r1 r r r r r r2 r c2 f4 a e f e2 a,4 a\p \i f d e a e2 a, r1 r r r r r r r r
+  b, c a, g, d2 g, r1 r r r r r r r2 c2 f4 a e f e2 a,4 a\p \i f d e a e2 a, r1 r r r r r r r r
   r2 c2\f g2. g4 d2 g d\breve g,1 r2 g2\p c1( g,2) g, a,( a) e1 a, r1 r r r r r c1.\f d2
   g,\breve a,1 r4 c2 d4 bes,1 f,2 c a, g,4 g fis2 g d1 d2 r4 g4 d4. g8 d4 g c c r2 r1 r2 r4 d4 g4.( fis8 g4) a d d r2 r1
   r2 r4 e4 a4. gis8 a4 f e e r2 r1 r2 c2 f2.( e4 d2) g c1 f r2 f4( e d2) g, a,1 d r2 e2 a a, e1 a,
@@ -143,7 +168,7 @@ cantusTWOnotes = {
   r1 r\breve r r1 r2 g'2\f g'4. g'8 g'4 g' \i e'8 a' gis'4 a' gis'\p \i a'8 a' gis'4 a'2 r1 r2 r4 c''\f a' d'' cis''2
   d'' r4 c''\p a' d'' cis''2 d''1 r2 e''2\f e''2.( d''4 c''8 d'' e''2) e''4 e''1 e'' r\breve r r4 e'4 a'2. g'4 f' e' d'( e'8 f' g'4) a' \i
   b'( c'') d'' a' e''2 d'' c''4 b' a' g' f'( e' d'2) d'1 r2 a' e''2. d''4 c''4. b'8 a'4 g' f'( e'8 d' e'2) d'1 r1 r\breve r r1
-  r2 g'2\f c''4 c'' b' c'' d''2 c''4 g'\p \i c'' c'' b' c'' \i d''8( c'' d''4) c''2 r2 r\breve r r r2 a'2\f d''4 d'' cis'' d'' e''2 d''4 a'\p \i
+  r2 g'2\f c''4 c'' b' c'' d''2 c''4 g'\p \i c'' c'' b' c'' \i d''8( c'' d''4) c''2 r1 r r r r r r r2 a'2\f d''4 d'' cis'' d'' e''2 d''4 a'\p \i
   d'' d'' cis'' d'' e''8( d'' e''4) d''2 r1 r1 r2 d'2\f g'1. g'2 fis' g' a'\breve g'1 r2 b'2 e''4( d'' c''8 d'' e''4) d''( c'' b'8 c'' d''4) \i
   c''4( b' c'' a' b') a'( b'2) cis''1 r1 r\breve r r1 c''1.\f a'2 d''2.( c''4 bes'4. c''8 bes' c'' d''4) a'1 r4 g'2 f'4 bes'1 a'2 g' a'(
 %pg 3
@@ -180,7 +205,7 @@ tenorTWOnotes = {
   r4 a4\f c'16( b a b c'8) d' \i e'4 a\p c'16( b a b c'8) e' d'2 r r1 r r r2 b2\f a4.( b8 c'4 d' e'4. d'8 
   c'4 b8 a b4.) c'8 b2 cis'1 r1 r r r r a2 d'2. c'4 b a g2 f e( f g a) a\breve r1 b2 e'2. d'4
   c'4 b a( g8 f e) d e4 fis1 r r r r r r r2 b\f g4 a d' e' b2 c'4 b\p \i a g d' e' b8( a b4) c'2
-  r2 r1 r r r r r r2 cis'2\f d'4 b g d' cis'2 d'4 d'\p \i g b a4.( b8 cis') d' cis'4 d'2 r1 r r2 b d' e'
+  r2 r1 r r r r r r cis'2\f d'4 b g d' cis'2 d'4 d'\p \i g b a4.( b8 cis') d' cis'4 d'2 r1 r r2 b d' e'
   b2. b4 a2( g fis2. e4 fis g a2) b1 r r r r r r r2 b2\p e'4( d' c'8 d' e'4) \i d'4( c' b8 c' d'4) c'( b c' a) b( c' b2) a1
   e2.\f( f4 g2) d2. g2 g4 g2( d a) e r4 c'2 f4 f1 f2 g4. e8 e4 a d2 a2 d4 g a1 a2 r r1 r2 r4 c'4 c'4. c'8
   c'4 g g g r2 r1 r2 r4 d'4 d'4.( c'8 d'4) e' a a r2 r1 r2 r4 gis a4.( gis8 a4) b c' g r4 g \i f4.( g8
@@ -211,7 +236,7 @@ bassTWOnotes = {
   r1 r r2 g,2\f c2.( a,4) a,4.( b,8 c4 d e2) e, a, r4 g,4\p c a, e,2 a,1 r1 r2 a,2\f f2. d4 d2 d a,1 d2
   r4 a,4\p f d a,2 d r2 r1 r r2 g2\f c4. c8 g,4 g \i a8 a e4 a, e\p \i a8 a e4 a,2 r1
   r2 r4 a,4 d d a,2 \i d r4 a4 \i d d a,2 d1 r2 e2 a1. a2 e1 a, r1 r r r r r2 d2 g2. f4
-  e2 d cis d e1 d d\breve e2 e, a, a, a,1 d r1 r r r r r r2 g2 e4 f d c g2 \i c4 g\p f e \i d c g2 c r1 r r r r r r2
+  e2 d cis d e1 d d\breve e2 e, a, a, a,1 d r1 r r r r r r2 g2 e4 f d c g2 \i c4 g\p f e \i d c g2 c r1 r r r r r r
   %pg 2
   r2 a2\f fis4 g e d a2 d4 d\p b, g, a, d a,2 d r1 r r2 g,1 c2 g,4( a, b, g, d2) b, d1
   d, g, r1 r r r r r r r r r r r c1. d2 g,\breve a,1 r4 c2 d4 bes,1 f,2 c a,( g, fis,) g, d,1 d,2 r2 r1 r2 r4 c4 f4. c8
@@ -261,7 +286,7 @@ continuonotes =  {
   a8 a e4 a, e\p \l a8 a e4 a,2 a a, \l a, r4\f a, d d a,2 \l d r4\p a, d d a,2 \l d1 r2\f e \l a,1. a,2 \l
   e2 e, a, a,^\markup {"Instrumental Solo"} \l d2. c4 b,2 a, \l g, fis, g, d \l a,1 d2 d \l g2. f4 e2 d \l cis d e a, \l d1 d \l
   d1 e2 e, \l a, a, a, a, \l d1 r2^\markup {"Choir 1"} d \l c4 b, a, g, d2 g,4 d\p \l b, c a, g, d2 g,4 g^\markup {"Instruments"} \l 
-  d4 e d2 g,^\markup {"Choir 2"} g\f e4 f d c \l g2 c4 g\p f e d c \l g c^\markup {"Instruments"} g a g2 \l
+  d4 e d2 g,^\markup {"Choir 2"} g\f e4 f d c \l g2 c4 g\p f e d c \l g2 c4 c^\markup {"Instruments"} g a g2 \l
   c2\f^\markup {"Choir 1"} c f4 a e f \l e2 a,4 a\p f d e a \l e2 a,^\markup {"Instruments"} e4 c d e \l a,2\f^\markup {"Choir 2"} a fis4 g e d \l
   a2 d4 d\p b, g, a, d \l a,2 d^\markup {"instruments"} a4 f g a d1 \l r2^\markup {"Tutti"} g,1 c2 \l g,4 a, b, g, d2 b, \l d1 d, \l g,1. g2\p^\markup {"Cantus 1 and 2"}
   c1 g,2 g, \l a, a e1 \l a, r2^\markup {"Tenor 1 and 2 Solos"} g, \l c1 g,2 g, \l a,1 e, \l a, c1.\f^\markup{"Tutti"} \l d2 g,1 \l g, a,\l r4 c2 d4 bes,1 \l
@@ -303,13 +328,13 @@ continuonotes =  {
         >>
   %       \lyricsto "tenor 1" \new Lyrics \tenorONEwords
       >>
-  %     \new Staff <<
-  %       \new Voice = "alto 1" <<
-  %         \global
-  %         \alto1notes
-  %       >>
+      \new Staff <<
+        \new Voice = "alto 1" <<
+          \global
+          \altoONEnotes
+        >>
   %       \lyricsto "alto 1" \new Lyrics \altoONEwords
-  %     >>
+      >>
   %     \new Staff <<
         \new Voice = "bass 1" <<
           \global
