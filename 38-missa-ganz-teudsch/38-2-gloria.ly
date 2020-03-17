@@ -23,6 +23,8 @@ l = {  \bar "|"  }
 ll = { \bar "||" }
 i = { \bar "'" }
 
+gl = Glory sey Gott
+
 %Chorus Vocalis 1
 cantusONEnotes = {
   \clef "soprano"
@@ -55,9 +57,7 @@ cantusONEnotes = {
   fis'1) g' r d''2.( c''8 b' a'4 b'8 c'' d''2) d''1 r e''4( d'' c'' d'' e'' d'' c'' d'' \i e'' d'' e''1) e''2 e''1 d''\breve.~ d''\longa~ d'' \bar "|."
 
 }
-% cantusONEwords = \lyricmode {
-
-% }
+cantusONEwords = \gl,  \gl
 
 altoONEnotes = {
   \clef "alto"
@@ -437,100 +437,100 @@ continuonotes =  {
           \global
           \cantusONEnotes
         >>
-       %  \lyricsto "cantus 1" \new Lyrics \cantusONEwords
+        \lyricsto "cantus 1" \new Lyrics \cantusONEwords
       >>
-      \new Staff <<
-        \new Voice = "tenor 1" <<
-          \global
-          \tenorONEnotes
-        >>
-  %       \lyricsto "tenor 1" \new Lyrics \tenorONEwords
-      >>
-      \new Staff <<
-        \new Voice = "alto 1" <<
-          \global
-          \altoONEnotes
-        >>
-  %       \lyricsto "alto 1" \new Lyrics \altoONEwords
-      >>
-      \new Staff <<
-        \new Voice = "bass 1" <<
-          \global
-          \bassONEnotes
-        >>
-  %       \lyricsto "bass 1" \new Lyrics \bassONEwords
-      >>
-    >>
-
-    %Chorus Vocalis 2
-    \new ChoirStaff = "Vocalis 2" <<
-      \new Staff <<
-        \new Voice = "cantus 2" <<
-          \global
-          \cantusTWOnotes
-        >>
-  %       \lyricsto "cantus 2" \new Lyrics \cantusTWOwords
-      >>
-      \new Staff <<
-        \new Voice = "alto 2" <<
-          \global
-          \altoTWOnotes
-        >>
-  %       \lyricsto "alto 2" \new Lyrics \altoTWOwords
-      >>
-      \new Staff <<
-        \new Voice = "tenor 2" <<
-          \global
-          \tenorTWOnotes
-        >>
-  %       \lyricsto "tenor 2" \new Lyrics \tenorTWOwords
-      >>
-      \new Staff <<
-        \new Voice = "bass 2" <<
-          \global
-          \bassTWOnotes
-        >>
-  %       \lyricsto "bass 2" \new Lyrics \bassTWOwords
+    %   \new Staff <<
+%         \new Voice = "tenor 1" <<
+%           \global
+%           \tenorONEnotes
+%         >>
+%   %       \lyricsto "tenor 1" \new Lyrics \tenorONEwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "alto 1" <<
+%           \global
+%           \altoONEnotes
+%         >>
+%   %       \lyricsto "alto 1" \new Lyrics \altoONEwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "bass 1" <<
+%           \global
+%           \bassONEnotes
+%         >>
+%   %       \lyricsto "bass 1" \new Lyrics \bassONEwords
       >>
     >>
 
- %    Chorus Instrumentalis
-    \new ChoirStaff = "Instrumentalis" <<
-      \new Staff <<
-        \new Voice = "cantus inst 1" <<
-          \global
-          \cantusONEINSTnotes
-        >>
-  %        \lyricsto "cantus inst 1" \new Lyrics \cantusONEINSTwords
-      >>
-       \new Staff <<
-        \new Voice = "cantus inst 2" <<
-          \global
-          \cantusTWOINSTnotes
-        >>
-        % \lyricsto "cantus inst 2" \new Lyrics \cantusTWONSTwords
-      >>
-      \new Staff <<
-        \new Voice = "bass inst" <<
-          \global
-          \bassINSTnotes
-        >>
-  %       % \lyricsto "bass inst" \new Lyrics \bassINSTwords
-      >>
-    >>
-
-%     Continuo
-  \new Staff <<
-        \clef "bass"
-    \global
-    \new Voice = "continuo"
-    \continuonotes
-  >>
->>
-
-\midi {
-   \set Score.midiInstrument = #"reed organ"
-}
+ %    %Chorus Vocalis 2
+%     \new ChoirStaff = "Vocalis 2" <<
+%       \new Staff <<
+%         \new Voice = "cantus 2" <<
+%           \global
+%           \cantusTWOnotes
+%         >>
+%   %       \lyricsto "cantus 2" \new Lyrics \cantusTWOwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "alto 2" <<
+%           \global
+%           \altoTWOnotes
+%         >>
+%   %       \lyricsto "alto 2" \new Lyrics \altoTWOwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "tenor 2" <<
+%           \global
+%           \tenorTWOnotes
+%         >>
+%   %       \lyricsto "tenor 2" \new Lyrics \tenorTWOwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "bass 2" <<
+%           \global
+%           \bassTWOnotes
+%         >>
+%   %       \lyricsto "bass 2" \new Lyrics \bassTWOwords
+%       >>
+%     >>
+% 
+%  %    Chorus Instrumentalis
+%     \new ChoirStaff = "Instrumentalis" <<
+%       \new Staff <<
+%         \new Voice = "cantus inst 1" <<
+%           \global
+%           \cantusONEINSTnotes
+%         >>
+%   %        \lyricsto "cantus inst 1" \new Lyrics \cantusONEINSTwords
+%       >>
+%        \new Staff <<
+%         \new Voice = "cantus inst 2" <<
+%           \global
+%           \cantusTWOINSTnotes
+%         >>
+%         % \lyricsto "cantus inst 2" \new Lyrics \cantusTWONSTwords
+%       >>
+%       \new Staff <<
+%         \new Voice = "bass inst" <<
+%           \global
+%           \bassINSTnotes
+%         >>
+%   %       % \lyricsto "bass inst" \new Lyrics \bassINSTwords
+%       >>
+%     >>
+% 
+% %     Continuo
+%   \new Staff <<
+%         \clef "bass"
+%     \global
+%     \new Voice = "continuo"
+%     \continuonotes
+%   >>
+% >>
+% 
+% \midi {
+%    \set Score.midiInstrument = #"reed organ"
+% }
 
 \layout {
   \context {
