@@ -1,10 +1,10 @@
-% \include "../../global-settings.ly"
+ \include "../../global-settings.ly"
 \new Staff <<
   \new Voice = "tenor 1" <<
     \global
 {
   \clef "tenor"
-  \global b1\f b e' \i b2( a b c' d'1) \i d' e' e' d'2( e' d' c' b1) \i d'\p d' c c\breve r1 r\breve.
+  \global b1\f b e' \i b2( a b c' d'1) \i d' e' e' d'2( e' d' c' b1) \i d'\p d' c' c'\breve r1 r\breve.
 %pg 2
   e'1\f e' a e'1.( d'2 c'1) e' e' a c'\breve. b1\p c' c' b\breve r1 r\breve. d'1 d' e' d'\breve r1 a1\f g1. e2 a\breve r1
   c'2\p b a1 a b\breve r1 r\breve. fis1.\f g2 c' a b\breve b1 a d' d' e'1. d'2 cis'1 d'\breve r1 r r d'1\p
@@ -35,6 +35,33 @@
 }
 >>
 \new Lyrics \lyricsto "tenor 1" {
+ Glo -- ry sey Gott Glo -- ry sey Gott in der Hö -- he
+ Glo -- ry sey Gott in der Hö -- he in der Hö -- he in der Hö -- he in der Hö -- he
+ und auff Er -- den Fried und auff Er -- den Fried den Men -- schen ein Wol -- ge -- fal -- len ein
+ Wol -- ge -- fal -- len ein Wol -- ge -- fal -- len ein Wol -- ge -- fal -- len den Men -- schen ein
+ Wol -- ge -- fal -- len
+ wir be -- ten dich an wir be -- ten dich an
+ wir be -- ten dich an wir be -- ten dich an wir prei -- sen dich  wir
+ prei -- sen dich  wir prei -- sen dich wir prei -- sen dich
+ wir sa -- gen dir danck unb dei -- ner gros -- sen Eh -- re wil -- len
+ unb dei -- ner gros -- sen Eh -- re wil -- len Herr Gott him -- li -- scher Kö -- nig Herr Gott him -- li -- scher Kö -- nig
+ Herr Gott him -- li -- scher Kö -- nig Herr Gott him -- li -- scher Kö -- nig
+ Gott all -- mech -- ti -- ger Va -- ter Herr ein -- ge -- bor --
+ ner Sohn JE -- SU CHRIS -- TE JE -- SU CHRIS -- TE
+ der Al -- ler -- höch -- ste Herr Gott Herr Gott Lamb Got -- tes ein Sohn ein Sohn des Va -- ters
+ Herr Gott Herr Gott Lamb Got -- tes ein Sohn des Va -- ters ein Sohn des Va -- ters der du hin -- nimbst die Sün -- de der Welt er -- bar -- me dich un -- ser
+ er -- bar -- me dich un -- ser
+ % Qui tollis
+ Der du hin -- nimbst der du hin -- nimbst die Sün -- de der Welt die Sün -- de der
+ Welt der du hin -- nimbst die Sün -- de der Welt nimb an un -- ser Ge -- bet nimb an un -- ser Ge -- bet
 
+
+er -- barm dich un -- ser
+ er -- barm dich un -- ser er -- barm dich un -- ser al -- lein hei -- lig du bist al -- lein der Herr al -- lein der Herr du bist der Al -- ler -- höch -- ste JE -- SU CHRIS -- TE JE -- SU CHRIS -- TE
+ sampt dem hei -- li -- gen Geist in der Herz -- lig -- keit in der Herz -- lig -- keit Gott des Va -- ters
+ A -- men A -- men
+ A -- men A -- men
+ A -- men A -- men
+ A -- men A -- men A -- men
 }
 >>
