@@ -1,35 +1,22 @@
 \version "2.24.0"
 \include "./global-settings.ly"
 
+% Part 1
 \score {
- <<
-  %   %Chorus Vocalis 1
-    \new ChoirStaff = "Vocalis 1" <<
-      \include "parts/choir-1/cantus/gloria-1.ly"
-      \include "parts/choir-1/tenor/gloria-1.ly"
-      \include "parts/choir-1/altus/gloria-1.ly"
-    >>
-  >>
+  \include "parts/choir-1/gloria-1.ly"
 }
 
+% Sinfonia
 \score {
- <<
-  %   %Chorus Vocalis 1
-    \new ChoirStaff = "Vocalis 1" <<
-      \include "parts/choir-1/cantus/gloria-2.ly"
-      \include "parts/choir-1/tenor/gloria-2.ly"
-      \include "parts/choir-1/altus/gloria-2.ly"
-    >>
- >>
+  \include "parts/choir-1/original-sinfonia.ly"
 }
 
+% Part 2
 \score {
- <<
-  %   %Chorus Vocalis 1
-    \new ChoirStaff = "Vocalis 1" <<
-      \include "parts/choir-1/cantus/gloria-qui-tollis.ly"
-      \include "parts/choir-1/tenor/gloria-qui-tollis.ly"
-      \include "parts/choir-1/altus/gloria-qui-tollis.ly"
-    >>
- >>
+  \include "parts/choir-1/gloria-2.ly"
+}
+
+% Qui Tollis
+\score {
+  \include "parts/choir-1/gloria-qui-tollis.ly"
 }

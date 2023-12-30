@@ -16,7 +16,7 @@
   b'4( a' g'8 a' b'4) \i a'( g'8 f' e'4 fis' gis' a') gis'2 a'1 r1 r r r r r g'1. f'2 bes'\breve a'1 r4 g'2 f'4 bes'1 a'2 g' a'(
   b'4. c''8 d''2) b' d''1 a'2 r4 g'4 a'4. g'8 a'4 b' \i c'' c'' r2 r1 r2 r4 a' b'4. a'8 b'4 cis'' d'' a' r2 r1 r2 r4 b'
   c''4. b'8 c''4 d'' e'' b' r2 r1 r2 g' a'2.( g'4 a'2) b' c''1 a' r2 a'1 d'' cis''2 d''1 r2 b' c'' c'' b'1 a' r2 g' b' b' c''1 a' b'
-  r2 g' b' b' c'' c''1( b'2 a'\breve) b'\longa\fermata \l
+  r2 g' b' b' c'' c''1( b'2 a'\breve) b'\longa\fermata \ll
   }
 
         >>
