@@ -1,5 +1,5 @@
 \version "2.24.0"
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title = "XXXVIIIB Glory sei Gott"

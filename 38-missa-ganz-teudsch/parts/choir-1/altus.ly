@@ -32,6 +32,28 @@
 }
 >>
 \new Lyrics \lyricsto "alto 1" {
+ Glo -- ry sey Gott! Glo -- ry sey Gott in der Hö -- he! Glo -- ry sey Gott Glo --
+ ry sey Gott in der Hö -- he, in der Hö -- he, in der Hö -- he! Und auff Er -- den Fried, und auff Er -- den
+ Fried, den Men -- schen ein Wol -- ge -- fal -- len, ein Wol -- ge -- fal -- len, ein Wol -- ge -- fal -- len,
+ ein Wol -- ge -- fal -- len, den Men -- schen ein Wol -- ge -- fal -- len.
 
+
+ Wir be -- ten dich an, unb dei -- ner
+ gros -- sen Eh -- re wil -- len, unb dei -- ner Eh -- re wil -- len Herr Gott him -- li -- scher
+ Kö -- nig, Herr Gott him -- li -- scher Kö -- nig, Herr Gott him -- li -- scher Kö -- nig, Herr
+ Gott him -- li -- scher Kö -- nig, Gott all -- mech -- ti -- ger Va -- ter, JE -- SU
+ CHRIS -- TE, JE -- SU CHRIS -- TE, du Al -- ler -- höch -- ster Herr Gott, Herr
+ Gott, Lamb Got -- tes, ein Sohn des Va -- ters, Herr Gott, Herr Gott Lamb Got -- tes, ein Sohn des Va -- ters,
+ der du hin -- nimbst die Sün -- de der Welt, er -- bar -- me dich un -- ser, er -- bar -- me dich un -- ser.
+ % Qui tollis
+ Der du hin -- nimbst, der du hin -- nimbst die Sün -- de der Welt, der du hin -- nimbst die Sün -- de der
+ Welt, nimb an, nimb an un -- ser Ge -- bet, er -- barm dich, er -- barm dich, er -- bar -- me dich un -- ser,
+ er -- bar --me dich un -- ser, er -- bar --me dich un -- ser, er -- bar --me dich un -- ser, Al -- lein hei --
+ lig, du bist al -- lein der Herr, al -- lein der Herr, du bist der Al -- ler --
+ höch -- ste, JE -- SU CHRIS -- TE, JE -- SU CHRIS -- TE, sampt dem Hei -- li -- gen Geist in der Herz -- lig -- keit,
+ in der Herz -- lig -- keit Gott des Va -- ters: A -- men A -- men A -- men A -- men
+ A -- men A -- men A -- men A -- men A -- men A -- men A -- men
+ A -- men A -- men A -- men A -- men A -- men A -- men
+ A -- men A -- men!
 }
 >>

@@ -1,7 +1,6 @@
 \version "2.24.0"
 \include "./global-settings.ly"
 
-% %Chorus Vocalis 2
 %Chorus Instrumentalis
 cantusONEINSTnotes = {
   \clef treble
