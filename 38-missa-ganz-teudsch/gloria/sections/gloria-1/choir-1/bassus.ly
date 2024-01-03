@@ -13,5 +13,10 @@
 }
 >>
 \new Lyrics \lyricsto "bassus 1" {
+ Glo -- ry sey Gott! Glo -- ry sey Gott in der Hö -- he! Glo -- ry sey Gott!
+ Glo -- ry sey Gott in der Hö -- he, in der Hö -- he, in der Hö -- he!
+ und auff Er -- den Fried, und auff Er -- den Fried, den Men -- schen ein Wol -- ge -- fal -- len, ein
+ Wol -- ge -- fal -- len, ein Wol -- ge -- fal -- len, ein Wol -- ge -- fal -- len, den Men -- schen ein
+ Wol -- ge -- fal -- len.
 }
 >>

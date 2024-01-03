@@ -1,10 +1,10 @@
-%\include "../../../global-settings.ly"
+% \include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "bassus 1" <<
     \global
 {
   \clef bass
-
+  \duple
   % pg 2 ln 3
   g1\p g2 g, g,1 r1 r r r r
   a1 a2 a, a,1 r1 r r r r r r2 d2 g g, g,1 r1 r r2 a2 a a, a,1 r1 r r r r2 e2\f a1. a2 e1 a,2 a, d2. c4
@@ -17,5 +17,13 @@
 }
 >>
 \new Lyrics \lyricsto "bassus 1" {
+ Wir lo -- ben dich,
+ wir lo -- ben dich, wir lo -- ben dich, wir lo -- ben dich, wir be -- ten dich an, umb dei -- ner
+ gros -- sen Eh -- re wil -- len, unb dei -- ner Eh -- re wil -- len, Herr Gott him -- li -- scher Kö -- nig, Herr
+ Gott him -- li -- scher Kö -- nig, Herr Gott him -- li -- scher Kö -- nig, Herr Gott him -- li -- scher Kö -- nig,
+ Gott all -- mech -- ti -- ger Va -- ter, Herr ein -- ge -- bor -- ner Sohn, JE -- SU
+ CHRIS -- TE, JE -- SU CHRIS -- TE, du al -- ler, du al -- ler höch -- ster, Herr Gott, Herr Gott Lamb Got -- tes, ein Sohn des Va -- ters,
+ Herr Gott, Herr Gott Lamb Got -- tes, ein Sohn des Va -- ters, der du hin -- nimbst die Sün -- de der Welt,
+ er -- barm dich un -- ser, er -- barm dich un -- ser.
 }
 >>
