@@ -4,6 +4,7 @@
     \global
 {
   \clef "tenor"
+  \duple
   r1 r r2 g2\f g2.( a4) a2 a2.( gis8 fis gis2) a r4 g4\p g a2 gis4 a1 r r2 a2\f a1. a2 a1 a2
 %pg 2
   r4 c'4\p a a a2 a r r1 r4 g4\f b16( a g a b8) c' \i d'4 g\p b16( a g a b8) d' \i c'2 r r1 r

@@ -4,6 +4,7 @@
    \global
   {
   \clef "soprano"
+  \duple
   % pg 1 ln 4
   r2 r4 g'\f b'16( c'' d'' c'' b'8) c'' d''4 g'\p b'16( c'' d'' c'' b'8) c'' d''4 g'\f g''8( f''16 e'' d'' c'' b') a' g'4 c'' \i
 %pg 2

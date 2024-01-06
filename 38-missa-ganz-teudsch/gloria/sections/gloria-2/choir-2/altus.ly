@@ -1,9 +1,10 @@
-% \include "../../global-settings.ly"
+% \include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "alto 2" <<
     \global
 {
   \clef "alto"
+  \duple
   r1 r r2 d'2\f e'1. e'2
   e'1 cis'2 r4 d'4 e'4. e'8 e'2 e'1 r1 r2 e'2 f'1. f'2 e'4.( d'8 e'2) d' r4 e'4\p f'4. f'8 e'2 d' r2 r1 r
   r2 d'2\f e'4. e'8 d'4 d' \i c'8 e' e'4 e' e'\p e'8 e' e'4 cis'2 r1 r2 r4 a'4 f' a' a'2 fis' r4 a'4\p f' a' a'2 a'1
@@ -19,6 +20,17 @@
 }
 >>
 \new Lyrics \lyricsto "alto 2" {
-
+ Wir be -- ten
+ dich an, wir be -- ten dich an, wir be -- ten dich an, wir be -- ten dich an,
+ wir sa -- gen dir, wir sa -- gen dir danck, wir sa -- gen dir danck, wir sa -- gen dir danck, wir sa -- gen dir danck,
+ wir sa -- gen dir danck, unb dei -- ner gros -- sen Eh -- re wil -- len, unb
+ dei -- ner gros -- sen Eh -- re wil -- len, unb dei -- ner Eh -- re wil -- len, unb dei -- ner Eh -- re wil -- len,
+ Gott all -- mech -- ti -- ger Va -- ter, Gott all -- mech -- ti -- ger Va -- ter, Gott all -- mech -- ti -- ger Va -- ter, Gott
+ all -- mech -- ti -- ger Va -- ter, Gott all -- mech -- ti -- ger Va -- ter: JE -- SU CHRIS -- TE, JE -- SU CHRI --
+ STE, du Al -- ler -- höch -- ster, Herr Gott, Herr Gott, Lamb Got -- tes, ein
+ Sohn, ein Sohn des Va -- ters, ein Sohn, ein Sohn des Va -- ters, ein
+ % pg 3
+ Sohn, ein Sohn des Va -- ters, der du hin -- nimbst, hin -- nimbst die Sün -- de der Welt, er -- bar -- me
+ dich un -- ser, er -- bar -- me dich un -- ser.
 }
 >>

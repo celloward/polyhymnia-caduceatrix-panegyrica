@@ -1,4 +1,4 @@
-% \include "../../global-settings.ly"
+% \include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "alto 2" <<
     \global
@@ -16,6 +16,13 @@
 }
 >>
 \new Lyrics \lyricsto "alto 2" {
-
+ Der du hin -- nimbst, der du hin -- nimbst die Sün -- de der Welt, die Sün -- de der Welt,
+ der du hin -- nimbst die Sün -- de der Welt, nimb an un -- ser Ge -- bet, un -- ser Ge -- bet, der
+ du si -- tzest zu Rech -- ten des Va -- ters, er -- barm dich un -- ser, Denn du bist al -- lein hei -- lig,
+ al -- lein hei -- lig, al -- lein der Herr, du bist al -- lein  der höch -- ste,
+ JE -- SU CHRIS -- TE, sampt dem Hei -- li -- gen Gei -- ste in der Herz -- lig -- keit Gott des Va -- ters, in der Herz -- lig --
+ keit Gott des Va -- ters: A -- men A -- men A -- men
+ A -- men A -- men A -- men A -- men A -- men A -- men
+ A -- men!
 }
 >>

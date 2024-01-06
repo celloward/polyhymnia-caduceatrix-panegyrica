@@ -1,4 +1,4 @@
-%\include "../../global-settings.ly"
+% \include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "bassus 2" <<
     \global
@@ -10,6 +10,8 @@
 }
 >>
 \new Lyrics \lyricsto "bassus 2" {
-
+ Glo -- ry sey Gott! Glo -- ry sey Gott in der Hö -- he! Glo -- ry sey
+ Gott! Glo -- ry sey Gott in der Hö -- he, in der Hö -- he! Und auff Er -- den Fried, den
+ Men -- schen ein Wol -- ge -- fal -- len, ein Wol -- ge -- fal -- len, den Men -- schen ein Wol -- ge -- fal -- len.
 }
 >>
