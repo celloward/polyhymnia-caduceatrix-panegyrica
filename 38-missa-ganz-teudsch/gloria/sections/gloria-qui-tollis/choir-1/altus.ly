@@ -3,7 +3,7 @@
   \new Voice = "alto 1" <<
     \global
 {
-  \clef "alto"
+  \clef "treble"
  % p3
   \global d'1 f' e' f'\breve r1 d'1 f' e' d'\breve r1 r\breve. r1 r e'1 e' e' e' e'\breve r1 r\breve. d'1 f' e' d'\breve d'1 e' e' e'
   \duple e'1 f' g'1. g2 a a a d' d'1 r1 r r c'1. b1 a2 c'1 c'2 a2~ a4( b4 c'1) a2 d'4. a8 e'4 b a1 r1

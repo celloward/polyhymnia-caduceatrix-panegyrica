@@ -1,10 +1,10 @@
-% \include "../../../global-settings.ly"
+ %\include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "cantus 2" <<
   \global
 
   {
-  \clef "soprano"
+  \clef "treble"
   % pg 3 ln 4
   %fixing line length with extra d''2 in 116
   \global r\breve.^\markup {\bold {"Qui tollis"}} a'1 d'' cis'' d''\breve r1 a'1 d'' cis'' d''\breve b'1 c'' c'' b' a'\breve b'1 c'' c'' b' a'\breve r1 a' d'' cis'' d''\breve

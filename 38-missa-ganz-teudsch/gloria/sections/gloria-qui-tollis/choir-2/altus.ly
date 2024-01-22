@@ -1,9 +1,9 @@
-% \include "../../../global-settings.ly"
+ %\include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "alto 2" <<
     \global
 {
-  \clef "alto"
+  \clef "treble"
   % pg 3 ln 3
   r\breve.^\markup {\bold {"Qui tollis"}} d'1 f' e' d'\breve r1 d'1 f' e' fis'\breve gis'1 a' a' gis' a' e'\breve e'1 e' e' e'\breve r1
   f'1. d'2 e'1 fis'\breve g'1 e' e' e' \duple e'2 a c' f' e'2.( f'4 g'2.) d'4 d'2 d' d' d' d'1 r1 r r r r r r r r r r c'2.( d'4
