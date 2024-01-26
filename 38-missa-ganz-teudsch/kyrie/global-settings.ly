@@ -43,6 +43,7 @@ i = { \bar "'" }
   %         (stretchability . 0))
   % }
   \set Score.measureBarType = ""
+  % indent = 0.0
 }
 
 \paper {

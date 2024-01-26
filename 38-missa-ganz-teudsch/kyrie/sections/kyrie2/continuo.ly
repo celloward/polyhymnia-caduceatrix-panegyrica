@@ -2,6 +2,8 @@
 
 \new Staff = "Continuo" {
   \clef "bass"
+  \set Staff.instrumentName = "Basso Continuo"
+  \set Staff.shortInstrumentName = "BC"
   % p2 ln 6
   g,1\f^\markup { "Tenor 1 and 2 and Bass 1 with instruments" } g,2. e,4 \l d,2 d, e,8 f, g,4 a,2 \l
   d2 d4 d g, g, a,2 \l d4 d\p a,2 d4 d a,2 \l d4 d,\f e,2 a,4 a, e2 \l a,4 a,\p e,2 a, e \l a4 d\f a,2 d4 d, a,2 \l
