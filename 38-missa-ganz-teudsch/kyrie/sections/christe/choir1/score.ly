@@ -2,4 +2,5 @@
 
 <<
   \include "cantus.ly"
+  \include "tenor.ly"
 >>
