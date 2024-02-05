@@ -2,11 +2,8 @@
 
 \new Staff <<
   \new Voice = "Tenor 1" <<
+    \include "../../../settings/choir1/tenor.ly"
     {
-      \accidentalStyle Score.forget
-      \set Staff.instrumentName = "Tenor 1"
-      \set Staff.shortInstrumentName = "T1"
-      \clef "tenor"
       % pg 1 ln 3
       r2 g2\f a4( g8 a b4 a8 b c'1) r1
       r4 g a( b c'2) r4 b4 a4.( b8) g4 b\p a4.( b8) g2 r4 a4\f b( c' d'2) r2 r4 a4 b( c' d'2) r4 c'4 \i

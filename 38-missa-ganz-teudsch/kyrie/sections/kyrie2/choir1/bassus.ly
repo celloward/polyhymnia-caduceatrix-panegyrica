@@ -2,11 +2,8 @@
 
 \new Staff <<
   \new Voice = "Bass 1" <<
+    \include "../../../settings/choir1/bassus.ly"
     {
-      \accidentalStyle Score.forget
-      \set Staff.instrumentName = "Bass 1"
-      \set Staff.shortInstrumentName = "B1"
-      \clef "bass"
       % pg 2 ln 5
       g,1\f g,2.( e,4) d,2 d, e,8( f, g,4 a,2) d,1 r1 r4 d4\p a,2 d r2 r4 d,4\f e,2 a, r2 r4 a,4\p e,2 a, r2
       r4 d\p a,2 d4 d, a,2 d,1 g2 fis g1 d2 r4 g,8\f g, a,4 b, c d g,2 r4 g,8\p g, a,4 b, c d g,2 r2 r\breve

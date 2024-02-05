@@ -2,11 +2,8 @@
 
 \new Staff <<
   \new Voice = "Cantus 2" <<
+    \include "../../../settings/choir2/cantus.ly"
     {
-      \accidentalStyle Score.forget
-      \set Staff.instrumentName = "Cantus 2"
-      \set Staff.shortInstrumentName = "C2"
-      \clef "soprano"
       % pg 2 ln 1
       r\breve r r r r r r r b'4.\f( c''8 d''2) r2 r4 d''8 b' \i a'4 g' g' fis' g'2 r4 d''8\p b' \i a'4 g' g' fis' g'2 r2 r\breve
       r2 c''4\f c'' a' g' a' g' e'2 r4 g'8\p e' \i a'4 g' a' b' c''2 r2 r1 r2 g'4\f c'' \i b' a' a' gis' a'2
