@@ -1,4 +1,4 @@
-\include "global-settings.ly"
+%\include "global-settings.ly"
 
 \score {
   \include "sections/sinfonia1/score.ly"
