@@ -2,5 +2,6 @@
 
 <<
   \include "cantus.ly"
+  \include "cantus2.ly"
   \include "continuo.ly"
 >>

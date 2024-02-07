@@ -3,4 +3,5 @@
 \new ChoirStaff = "Chorus Instrumentalis"
 <<
   \include "cantus.ly"
+  \include "cantus2.ly"
 >>
