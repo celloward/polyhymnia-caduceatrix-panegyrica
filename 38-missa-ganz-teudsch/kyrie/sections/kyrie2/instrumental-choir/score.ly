@@ -4,4 +4,5 @@
 <<
   \include "cantus.ly"
   \include "cantus2.ly"
+  \include "bassus.ly"
 >>
