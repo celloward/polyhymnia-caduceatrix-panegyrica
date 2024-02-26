@@ -1,6 +1,7 @@
-\include "../../global-settings.ly"
+%\include "../../global-settings.ly"
 
 \new Staff <<
+  \include "global.ly"
   \new Voice = "Cantus 2 Intrument" <<
     \include "../../settings/instrumental-choir/cantus2.ly"
     {
