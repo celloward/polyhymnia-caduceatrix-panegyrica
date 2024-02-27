@@ -1,0 +1,7 @@
+* Todo List
+** TODO Decrease lyric font size
+** TODO Close distance of instrument staves
+** TODO Close distance between scores
+** TODO Remove extra measure lines from Sinfonia 3
+** TODO Add figured bass
+** TODO Rename global to form

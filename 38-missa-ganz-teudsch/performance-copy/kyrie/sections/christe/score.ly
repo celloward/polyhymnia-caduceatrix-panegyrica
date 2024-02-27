@@ -5,3 +5,10 @@
   \include "choir2/score.ly"
   \include "continuo.ly"
 >>
+
+\layout {
+  \context {
+    \Staff
+    \RemoveAllEmptyStaves
+  }
+}
