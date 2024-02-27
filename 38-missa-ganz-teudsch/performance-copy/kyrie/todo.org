@@ -5,3 +5,4 @@
 ** TODO Remove extra measure lines from Sinfonia 3
 ** TODO Add figured bass
 ** TODO Rename global to form
+** TODO Fix rest over barline Kyrie2
