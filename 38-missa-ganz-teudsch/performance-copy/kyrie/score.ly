@@ -27,3 +27,9 @@
 \score {
   \include "sections/sinfonia4/score.ly"
 }
+
+\paper {
+  ragged-bottom = t
+  score-system-spacing.stretchability = 0
+  system-system-spacing.stretchability = 0
+}

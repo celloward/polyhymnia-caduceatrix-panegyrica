@@ -1,8 +1,27 @@
 * Todo List
 ** TODO Decrease lyric font size
-** TODO Close distance of instrument staves
-** TODO Close distance between scores
-** TODO Remove extra measure lines from Sinfonia 3
+** DONE Close distance of instrument staves
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-02-27 Tue 22:49]
+:END:
+** DONE Close distance between scores
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-02-27 Tue 22:49]
+:END:
+** DONE Remove extra measure lines from Sinfonia 3
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-02-27 Tue 19:41]
+:END:
 ** TODO Add figured bass
-** TODO Rename global to form
-** TODO Fix rest over barline Kyrie2
+** DONE Rename global to form
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-02-27 Tue 21:12]
+:END:
+** DONE Fix rest over barline Kyrie2
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-02-27 Tue 20:00]
+:END:
+** DONE Add Continuo name
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-02-27 Tue 20:44]
+:END:

@@ -25,6 +25,7 @@ i = { \bar "'" }
 
 
 \layout {
+  staff-staff-spacing.stretchability = 0
   \context {
     \Voice
     \consists "Ambitus_engraver"

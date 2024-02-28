@@ -1,9 +1,10 @@
 %\include "../../global-settings.ly"
 
 \new Staff <<
-  \include "global.ly"
+  \include "form.ly"
   \new Voice = "Continuo"
     {
+      \include "../../settings/continuo.ly"
       \clef "tenor"
       % pg 2 ln 3
       \textMark \markup { \bold  "Sinfonia" }

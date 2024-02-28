@@ -1,7 +1,7 @@
 %\include "../../global-settings.ly"
 
 \new Staff <<
-  \include "global.ly"
+  \include "form.ly"
   \new Voice = "Bass Intrument" <<
     \include "../../settings/instrumental-choir/bassus.ly"
     {
