@@ -41,7 +41,7 @@ i = { \bar "'" }
   %         (padding . 0)
   %         (stretchability . 0))
   % }
-  \set Score.measureBarType = ""
+  %\set Score.measureBarType = ""
 }
 
 \paper {
