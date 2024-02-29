@@ -5,7 +5,7 @@
   \new Voice = "Continuo" {
     \include "../../settings/continuo.ly"
     % p2 ln 6
-    \textMark \markup { \bold  "Kyrie" }
+    \textMark \markup { \bold  "Kyrie 2" }
     g,1\f^\markup { "Tenor 1 and 2 and Bass 1 with instruments" } g,2. e,4 d,2 d, e,8 f, g,4 a,2
     d2 d4 d g, g, a,2 d4 d\p a,2 d4 d a,2 d4 d,\f e,2 a,4 a, e2 a,4 a,\p e,2 a, e a4 d\f a,2 d4 d, a,2
     d,1 g2^\markup { "Cantus 1 and 2 and Bass 1 with instruments" } fis g1 d2 r4 g, a, b, c d g,2 r4 g,4\p a, b, c d g, g,8\p^\markup { "Insturments" } g, c4 e

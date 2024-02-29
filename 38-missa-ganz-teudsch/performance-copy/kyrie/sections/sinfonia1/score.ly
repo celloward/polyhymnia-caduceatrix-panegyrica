@@ -1,5 +1,6 @@
 %\include "../../global-settings.ly"
 
+\new ChoirStaff
 <<
   \include "cantus.ly"
   \include "cantus2.ly"

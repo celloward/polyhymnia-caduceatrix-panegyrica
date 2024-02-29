@@ -1,4 +1,5 @@
 \version "2.24.0"
+%\include "../lyric-placement-snippet.ly"
 #(set-global-staff-size 17)
 
 \header {
