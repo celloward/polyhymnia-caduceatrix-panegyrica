@@ -1,6 +1,8 @@
 %\include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "alto 2" <<
+  \include "../form.ly"
+
     \include "../../../settings/choir2/altus.ly"
     {
       \duple
@@ -25,8 +27,8 @@
     wir sa -- gen dir danck, unb dei -- ner gros -- sen Eh -- re wil -- len, unb
     dei -- ner gros -- sen Eh -- re wil -- len, unb dei -- ner Eh -- re wil -- len, unb dei -- ner Eh -- re wil -- len,
     Gott all -- mech -- ti -- ger Va -- ter, Gott all -- mech -- ti -- ger Va -- ter, Gott all -- mech -- ti -- ger Va -- ter, Gott
-    all -- mech -- ti -- ger Va -- ter, Gott all -- mech -- ti -- ger Va -- ter: JE -- SU CHRIS -- TE, JE -- SU CHRI --
-    STE, du Al -- ler -- höch -- ster, Herr Gott, Herr Gott, Lamb Got -- tes, ein
+    all -- mech -- ti -- ger Va -- ter, Gott all -- mech -- ti -- ger Va -- ter: JE -- SU CHRIS -- TE, JE -- SU CHRIS --
+    TE, du Al -- ler -- höch -- ster, Herr Gott, Herr Gott, Lamb Got -- tes, ein
     Sohn, ein Sohn des Va -- ters, ein Sohn, ein Sohn des Va -- ters, ein
     % pg 3
     Sohn, ein Sohn des Va -- ters, der du hin -- nimbst, hin -- nimbst die Sün -- de der Welt, er -- bar -- me

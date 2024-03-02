@@ -27,6 +27,10 @@ i = { \bar "'" }
   \context {
     \Voice
     \consists "Ambitus_engraver"
+    \remove Note_heads_engraver
+    \consists Completion_heads_engraver
+    \remove Rest_engraver
+    \consists Completion_rest_engraver
   }
   % \context {
   %   \Score

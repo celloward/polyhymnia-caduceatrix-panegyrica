@@ -1,6 +1,7 @@
 %\include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "tenor 1" <<
+    \include "../form.ly"
     \include "../../../settings/instrumental-choir/tenor.ly"
     \duple
     {

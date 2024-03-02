@@ -2,6 +2,8 @@
 \new Staff <<
   \new Voice = "alto 1" <<
     \include "../../../settings/instrumental-choir/altus.ly"
+    \include "../form.ly"
+
     \duple
     {
       \clef "treble"

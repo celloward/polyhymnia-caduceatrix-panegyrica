@@ -1,6 +1,8 @@
 %\include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "bassus 2" <<
+  \include "../form.ly"
+
     \include "../../../settings/choir2/bassus.ly"
     {
       \duple
