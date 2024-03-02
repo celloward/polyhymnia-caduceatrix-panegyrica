@@ -13,7 +13,7 @@
       d'' r4 c''\p a' d'' cis''2 d''1 r2 e''2\f e''2.( d''4 c''8 d'' e''2) e''4 e''1 e'' r\breve r r4 e'4 a'2. g'4 f' e' d'( e'8 f' g'4) a'
       b'( c'') d'' a' e''2 d'' c''4 b' a' g' f'( e' d'2) d'1 r2 a' e''2. d''4 c''4. b'8 a'4 g' f'( e'8 d' e'2) d'1 r1 r\breve r r1
       r2 g'2\f c''4 c'' b' c'' d''2 c''4 g'\p c'' c'' b' c'' d''8( c'' d''4) c''2 r1 r r r r r r r2 a'2\f d''4 d'' cis'' d'' e''2 d''4 a'\p
-      d'' d'' cis'' d'' e''8( d'' e''4) d''2 r1 r1 r2 d'2\f g'1~ g'2 g'2 fis' g' a'\breve g'1 r2 b'2\p e''4( d'' c''8 d'' e''4) d''( c'' b'8 c'' d''4)
+      d'' d'' cis'' d'' e''8( d'' e''4) d''2 r1 r1 r2 d'2\f g'1. g'2 fis' g' a'\breve g'1 r2 b'2\p e''4( d'' c''8 d'' e''4) d''( c'' b'8 c'' d''4)
       c''4( b' c'' a' b') a'( b'2) cis''1 r1 r\breve r r1 c''1.\f a'2 d''2.( c''4 bes'4. c''8 bes' c'' d''4) a'1 r4 g'2 f'4 bes'1 a'2 g' a'(
     %pg 3
       b'4. c''8 d''2) b' d''1 a'2 r2 r1 r2 r4 g'4\p a'4. g'8 a'4 b' c'' c'' r2 r1 r2 r4 a'4 b'4.( a'8 b'4) cis'' d'' a' r2 r1
