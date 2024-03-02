@@ -1,4 +1,4 @@
-\include "../../../global-settings.ly"
+%\include "../../../global-settings.ly"
 <<
   % Chorus Vocalis 1
   \new ChoirStaff = "Vocalis 1" <<
