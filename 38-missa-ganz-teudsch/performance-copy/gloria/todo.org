@@ -1,0 +1,4 @@
+* TODO Normalize fermatas and dynamics across all voices
+* TODO Figured bass
+* TODO Normalize rests
+* TODO Remove metranome markings

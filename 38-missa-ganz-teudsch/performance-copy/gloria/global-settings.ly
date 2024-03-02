@@ -47,6 +47,9 @@ i = { \bar "'" }
   % }
   %\set Score.measureBarType = ""
 }
+\midi {
+
+}
 
 \paper {
   % system-system-spacing =

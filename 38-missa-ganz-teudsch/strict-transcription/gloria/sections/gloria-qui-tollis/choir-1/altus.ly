@@ -1,4 +1,4 @@
- \include "../../../global-settings.ly"
+% \include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "alto 1" <<
     \global
