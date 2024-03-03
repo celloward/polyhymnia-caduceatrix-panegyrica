@@ -1,22 +1,21 @@
 \version "2.24.0"
-#(set-global-staff-size 17)
+#(set-global-staff-size 16)
 
 \header {
   title = "XXXVIIIB Glory sei Gott"
   subtitle = "Polyhymnia Caduceatrix et Panegyrica"
   composer = "Michael Praetorius"
-  tagline = ##f
 }
 
 global = {
   \key c \major
   \time 3/1
-  \tempo \breve. = 50
+%  \tempo \breve. = 50
 }
 
 duple = {
   \time 4/2
-  \tempo 1 = 72
+ %\tempo 1 = 72
 }
 
 l = {  \bar "|"  }
@@ -33,6 +32,10 @@ i = { \bar "'" }
     \consists Completion_rest_engraver
   }
   % \context {
+  %   \Lyrics
+  %   \override LyricText.font-size = #-1
+  % }
+  % \context {
   %   \Score
   %   \override StaffGrouper.staff-staff-spacing =
   %     #`((basic-distance . 0)
@@ -47,11 +50,20 @@ i = { \bar "'" }
   % }
   %\set Score.measureBarType = ""
 }
-\midi {
 
-}
-
-\paper {
+ \paper {
+   print-page-number = ##t
+   print-first-page-number = ##t
+   oddHeaderMarkup = \markup \null
+   evenHeaderMarkup = \markup \null
+   oddFooterMarkup = \markup {
+     \fill-line {
+       \if \should-print-page-number
+       \line { "Gloria - " \fromproperty #'page:page-number-string  }
+     }
+     }
+   }
+   evenFooterMarkup = \oddFooterMarkup
   % system-system-spacing =
   %   #`((basic-distance . 0)
   %       (minimum-distance . 0)

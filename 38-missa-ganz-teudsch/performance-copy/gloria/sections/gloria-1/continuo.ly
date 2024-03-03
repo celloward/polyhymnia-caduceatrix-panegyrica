@@ -1,6 +1,14 @@
-%\include "../../global-settings.ly"
+\include "../../global-settings.ly"
 \new Staff <<
-  \new Voice = "continuo" <<
+  \new Voice = "continuo"
+    \figuremode {
+      s1 <5> s s\breve. | s1 <5> s s\breve. | <_+>1 s1 s s s s | s s s s s s |
+      s\breve. s1 <5> s | s\breve. s1 s s | s s s s s s | s s s s s s | <_+> s s <_+>\breve s1 | s2 <6> <6>1 <_+> |
+      s1. <5>2 <5> s s1. <5>2 <6> s | <_+>1. s2 s <_+> s\breve s1 | <_+>1. <6>2 <6>1 s1 <6 5> <_+> | <_+>1. <6>2 <6>1 s s s |
+      s1 <6 5> <_+> <_+>\breve <_+>1 | s1. s2 <6>1 s s <_+> | s s2 <6> <_+>1 s s <_+> | s1 s2 <6> s1 s s <_+> | <_+>\breve s1 s s s |
+      s1. s2 | <_+>\breve <_+>\breve
+    }
+  \context Voice = "continuo" <<
     \include "../../settings/continuo.ly"
     {
       \global g1\f e c g,\breve. g1 e c g,\breve. d1\p g c f f, c f f, c c\f c f,

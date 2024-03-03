@@ -1,4 +1,15 @@
 * TODO Normalize fermatas and dynamics across all voices
 * TODO Figured bass
 * TODO Normalize rests
-* TODO Remove metranome markings
+* DONE Remove metranome markings
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-03-02 Sat 15:01]
+:END:
+* DONE Add header/footer with piece title with page number
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-03-02 Sat 18:51]
+:END:
+* DONE Experiment with smaller lyrics
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-03-02 Sat 18:23]
+:END:
