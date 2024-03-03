@@ -1,8 +1,24 @@
-%\include "../../global-settings.ly"
+\include "../../global-settings.ly"
 \new Staff <<
-  \new Voice = "continuo" <<
-  \include "form.ly"
-
+  \new Voice = "continuo"
+    \figuremode {
+      s1 s2 s | s s s2. s4 | s s <6> s <_+>2 <_+> | <_+> s4 s s s <_+>2 | s1 s2 s |
+      s2 s s2. s4 | s2 s <_+>1 | <_+>2 s4 s s s <_+>2 | s2 s <_+> <_+> | s2 s s s | s4. s8 s4 s |
+      s8 s <_+>4 <_+> <_+> | s8 s <_+>4 <_+>2 <_-> s | s s4 s s s <_+>2 | <_+> s4 s s s <_+>2 | <_+>1 s2 <_+> | s1. s2 |
+      <_+>2 <_+> <_+> <_+> | s2. <6>4 <6>2 <6>4 <5> | s2 s s s | <_+>1 s2 s | s2. <6>4 <5> <6> s2 | s s <6>4 <5> s2 | s1 <6 3>2 <5 _>
+      <6 4>2 <5 3> <_+>2 <_+> | s2 s <6 _>4 <5 3> <_+>2 | <_+>1 s2 s | s4 <6> <6> s <_+>2 s4 s | <6>4 s <6> s <_+>2 s4 s |
+      <_+>4 s <_+>2 s s <6>4 s <6> s | s2 s4 s s <6> <6> s | s2 s4 s s s s2 |
+      s2 s s4 s <_+> <6> | <_+>2 <_+>4 <_-> s s <_+> s | <_+>2 s <_+>4 <6> <6 _+>8 <5 _> <_+>4 | <_+>2 <_+> s4 s <6> s |
+      <_+>2 <_+>4 <_+> <6> s <_+> s | <_+>2 s <_+>4 <6> <6>8 <5> <_+>4 <_+>1 | s2 s1 s2 | s4 s <6> s <_+>2 <6> | <_+>1 <_+> | s1. s2 |
+      s1 s2 s | s s <_+>1 | <_+>1 s2 s | s1 s2 s | s1 <_+> | <_+> s1. | s2 <_->1 | <_->1 <_+> | s4 s2 s4 s1 |
+      % pg 3
+      s2 s <5>4 <6> s2 | s s <_+>1 | <_+>2 s4 s <_+>4. s8 <_+>4 s4 | s s s s s4. s8 s4 s | s4 s s <_+> |
+      s4. s8 s4 s | <_+>4 <_+>4 s4 <_+> s4. s8 s4 <6> | <_+>4 <_+> s4 <_+> s4. s8 s4 <6> | <_+>4 <_+> s4 <_+> s4. <_+>8 s4 s |
+      s4 s s s s2. <6>4 | s2 s s1 | s1 s2 s4 s | s2 s <_+>1 | <_+>1 s2 <_+>2 | s2 s <_+>1 | <_+> s2 s | s s4. s8 <6>4 s s2 |
+      <_+>1 s | s2 s s4 s <6> s | s4. s8 s2 <_+>2 <4> | <_+>\breve s\longa
+    }
+  \context Voice = "continuo" <<
+    \include "form.ly"
     \include "../../settings/continuo.ly"
     {
     %Pg 2 ln 1
