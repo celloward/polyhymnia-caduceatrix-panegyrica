@@ -1,5 +1,8 @@
 * TODO Normalize fermatas and dynamics across all voices
-* TODO Figured bass
+* DONE Figured bass
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-03-02 Sat 22:54]
+:END:
 * TODO Normalize rests
 * DONE Remove metranome markings
 :LOGBOOK:
@@ -14,5 +17,8 @@
 - State "DONE"       from "TODO"       [2024-03-02 Sat 18:23]
 :END:
 * TODO Small Caps Jesu Christe
-* TODO 3/1 -> 6/1
+* DONE 3/1 -> 6/1
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-03-02 Sat 22:58]
+:END:
 * TODO Use mensural notation for meter

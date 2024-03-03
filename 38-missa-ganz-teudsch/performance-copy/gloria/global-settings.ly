@@ -9,7 +9,7 @@
 
 global = {
   \key c \major
-  \time 3/1
+  \time 3,3 6/1
 %  \tempo \breve. = 50
 }
 

@@ -22,7 +22,7 @@
      Der du hin -- nimbst, der du hin -- nimbst die Sün -- de der Welt, der du hin --
      nimbst die Sün -- de der Welt, nimb an un -- ser Ge -- bet, er -- barm dich un -- ser,
      er -- barm dich un -- ser, er -- barm dich un -- ser, al -- lein hei -- lig, du bist al -- lein der
-     Herr, al -- lein der Herr, du bist der Al -- ler -- höch -- ste, JE -- SU CHRIS -- TE, JE -- SU CHRIS -- TE,
+     Herr, al -- lein der Herr, du bist der Al -- ler -- höch -- ste, \override Lyrics.LyricText.font-stype = #'smallCaps JE -- SU CHRIS -- TE, JE -- SU CHRIS -- TE,
      sampt dem Hei -- li -- gen Geist in der Herz -- lig -- keit, in der Herz -- lig -- keit Gott des Va -- ters:
      A -- men A -- men
      A -- men A -- men
