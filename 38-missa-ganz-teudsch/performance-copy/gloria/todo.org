@@ -13,3 +13,6 @@
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2024-03-02 Sat 18:23]
 :END:
+* TODO Small Caps Jesu Christe
+* TODO 3/1 -> 6/1
+* TODO Use mensural notation for meter

@@ -1,6 +1,21 @@
 %\include "../../global-settings.ly"
 \new Staff <<
-  \new Voice = "continuo" <<
+  \new Voice = "continuo"
+    \figuremode {
+      s1 s <_+> | s1 s <_+> s s <_+> | s s <_+> <_+>\breve <_+>1 | s s <_+> s\breve <_+>1 | s s <_+> s\breve s1 | s s <_+> <_+>\breve s1 |
+      s1 s <_+> <_+>1 s | s <6 4>2 <5 3> | <4>2 <_+>1 <_+>2 | s1 s4 s2 s4 | <_+>2 s2 s4 <_+> s2 s1 | s2 s1 s2 | s2 s1 s s2 | s2 s1 <_+>2 |
+      s2. s4 s2 s2. | s4 s2 s <6> | <5> s1 s s s2 | s2 s1 <_+>2 | <_+>1 s1 | s s | s s | s2 <_+> s4. s8 s4. s8 |
+      <6>4 <5> <_+>2 s2. s4 | <6>2 s s2. s4 | s2 <_+> s1 | <_+>2 <5>4 s <6>4 <5> <_+>2 | s4 s <6>4 <5> <_+>2 s4 s | s2 s s1 |
+      s2 s s4 s s s | <_+>1 <_+> | s2 s <_+>1 | s2 s4 s <5> s s2 | <4>2 <_+> <_+>1 |
+      s1 s2 <_+>4 <6> | s2 <_+> s1 | <_+>2 <_+>4 s4 <_+>2 <_+> | s1 s4 <6> <_+>2 | s2 s4 s <_+>2 <_+> | s1 s2 <6> | <4>2 <_+> <_+>1 | s1 s |
+      s2 s s <6>4 s | <_+>2 s4 s s2 s | s4 <6> s2 s <6>4 s | <_+>2 <6>4 s <_+>2 s |
+      s2 s s <6>4 s | <_+>2 s4 s s2 s | s4 <6> s2 s <6>4 s | <_+>2 <6>4 s <_+>2 s | s s s4. s8 <6>4 s |
+      s2 <6>4 s s2 <6>4 s | s2 s s4 s <_+>2 | <6>4 s <_+>2 <_+>1 | s2 s4 s s2 s4 s s2 s |
+      <5 4>2 <_ _+> <_+>1 | s1 s | <_+>1 <_+> | s s s\breve | s1 s\breve | s\breve. s\longa
+
+
+    }
+  \context Voice = "continuo" <<
     \include "../../settings/continuo.ly"
     \include "form.ly"
     {

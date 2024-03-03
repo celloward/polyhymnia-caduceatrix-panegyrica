@@ -1,4 +1,4 @@
-\include "../../global-settings.ly"
+%\include "../../global-settings.ly"
 \new Staff <<
   \new Voice = "continuo"
     \figuremode {
@@ -30,7 +30,7 @@
       d1 e2 e, a, a, a, a, d1 r2^\markup {"Choir 1"} d c4 b, a, g, d2 g,4 d\p b, c a, g, d2 g,4 g^\markup {"Instruments"}
       d4 e d2 g,^\markup {"Choir 2"} g\f e4 f d c g2 c4 g\p f e d c g2 c4 c^\markup {"Instruments"} g a g2
       c2\f^\markup {"Choir 1"} c f4 a e f e2 a,4 a\p f d e a e2 a,^\markup {"Instruments"} e4 c d e a,2\f^\markup {"Choir 2"} a fis4 g e d
-      a2 d4 d\p b, g, a, d a,2 d^\markup {"instruments"} a4 f g a d1 r2^\markup {"Tutti"} g,1 c2 g,4 a, b, g, d2 b, d1 d, g,1. g2\p^\markup {"Cantus 1 and 2"}
+      a2 d4 d\p b, g, a, d a,2 d^\markup {"Instruments"} a4 f g a d1 r2^\markup {"Tutti"} g,1 c2 g,4 a, b, g, d2 b, d1 d, g,1. g2\p^\markup {"Cantus 1 and 2"}
       c1 g,2 g, a, a e1 a, r2^\markup {"Tenor 1 and 2 Solos"} g, c1 g,2 g, a,1 e, a, c1.\f^\markup{"Tutti"} d2 g,1 g, a,r4 c2 d4 bes,1
     %Pg 3
       f,2 c a, g, fis, g, d,1 d,2 r4^\markup {"Choir 1"} g d4. g8 d4 g c c r4\p^\markup {"Choir 2 and 3"} c f4. c8 f4 g c c r4\f^\markup {"Choir 1"} d
