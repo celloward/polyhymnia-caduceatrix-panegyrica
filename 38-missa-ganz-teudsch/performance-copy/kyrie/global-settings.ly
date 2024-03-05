@@ -1,6 +1,6 @@
 \version "2.24.0"
 %\include "../lyric-placement-snippet.ly"
-#(set-global-staff-size 17)
+#(set-global-staff-size 16)
 
 \header {
   title = "XXXVIIIA Kyrie"
@@ -49,6 +49,16 @@ i = { \bar "'" }
 }
 
 \paper {
+   print-page-number = ##t
+   print-first-page-number = ##t
+   oddHeaderMarkup = \markup \null
+   evenHeaderMarkup = \markup \null
+   oddFooterMarkup = \markup {
+     \fill-line {
+       \if \should-print-page-number
+       \line { "Kyrie - " \fromproperty #'page:page-number-string  }
+     }
+   }
   % system-system-spacing =
   %   #`((basic-distance . 0)
   %       (minimum-distance . 0)

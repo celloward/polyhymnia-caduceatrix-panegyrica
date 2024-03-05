@@ -30,4 +30,7 @@
 :END:
 ** TODO Get footer with name
 ** TODO Use mensural notation for meter
-** TODO Resize to 16 pt
+** DONE Resize to 16pt
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-03-04 Mon 19:41]
+:END:
