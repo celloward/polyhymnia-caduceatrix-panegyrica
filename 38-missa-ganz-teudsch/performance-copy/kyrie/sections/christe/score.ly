@@ -11,4 +11,12 @@
     \Staff
     \RemoveAllEmptyStaves
   }
+  \context {
+    \ChoirStaff
+    \override SystemStartBracket.collapse-height = #1
+  }
+  \context {
+    \Score
+    \override SystemStartBar.collapse-height = #1
+  }
 }
