@@ -13,8 +13,8 @@
       a2. b4 a2 a b1 r r2 b4 b a2 a b2.( a8 b c'2) g4 d' a\breve b1 r b2 a4 d'4.( c'8 b a b4) g r2 g8( a b g
      %pg 4
       a b c' a b c' d'2 c'8 b a2) g r2 r4 d'2\p( c'8 b a2) b c'\f b4 e'4.( d'8 c' b c'4) a r2 a8( b c' a
-      b c' d' b c' d' e'2 d'8 c' b2) a r r4 e'2\p( d'8 c' b2) a r1 r r r2 g4( a b2) c' r1 a4( b cis'2) d'1
-      b8\f( c' d' b c' d' e' c' d'4) a2 c' b4 b( a8 g a2 b a1) b r1 a\breve g1 r c'\breve. c'\breve d'\breve. d'\longa~ d' \bar "|."
+      b c' d' b c' d' e'2 d'8 c' b2) a r r4 e'2\p( d'8 c' b2) a r1 r r r2 g4(\p a b2) c' r1 a4( b cis'2) d'1
+      b8\f( c' d' b c' d' e' c' d'4) a2 c' b4 b( a8 g a2 b a1) b r1 a\breve g1 r c'\breve. c'\breve d'\breve. d'\longa~ d'\fermata \bar "|."
     }
   >>
   \new Lyrics \lyricsto "tenor 1" {

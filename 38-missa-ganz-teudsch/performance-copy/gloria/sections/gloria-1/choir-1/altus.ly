@@ -1,6 +1,7 @@
 %\include "../../../global-settings.ly"
 \new Staff <<
   \new Voice = "alto 1" <<
+   \include "../form.ly"
     \include "../../../settings/choir1/altus.ly"
     \global
     {
@@ -8,7 +9,7 @@
       c' f' e'\breve. g'1\p g' a' g'\breve r1 r\breve. f'1 g' g' f'\breve r1 fis'1\f g' g' fis'\breve r1 e'2\p g' e'1 d' d' r1 r r\breve. d'1.\f d'2 c' d'
       d'\breve d'1 fis' fis' g' a'2 e' g'1( e') fis'\breve r1 r r f'1\p a'2 e' g'( f' e'1) d'\breve r1 r\breve. r1 r gis'1 e' e' e' d' r1 r
     %pg2
-      r1 r e'1 a'\breve gis'1 a' e' e'\f f' f' g' \duple g'1. g'2 e'( f' e'1) fis'\breve \ll
+      r1 r e'1 a'\breve gis'1 a' e' e'\f f' f' g' \duple g'1. g'2 e'( f' e'1) fis'\breve\fermata \ll
     }
   >>
   \new Lyrics \lyricsto "alto 1" {

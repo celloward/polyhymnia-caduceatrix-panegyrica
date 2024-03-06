@@ -12,8 +12,8 @@
       d'( e' fis' g' a'2) d' d'\p g' fis'1 g' r1 r d'2\f d' d' g' r2 d'4 g' a'4. e'8 e'2 e'1 d'2. d'4 a4( e') d'2 d'1 r1
       r2 d'2 a4 e' d'2 d'1 e'2 d'4 g d'\breve d'1 r1 d'2 d' g' g' r2 r4 d'4 d'2 d'4.( e'8 f'4 g' f'2) d' r2
       r2 d'4\p( e' fis'2) g' e'\f e' a' a' r2 r4 e'4 e'2 e'4.( f'8 g'4 a' g'2) e' r2 r2 e'4\p( fis' gis'2) a' r1 r r
-      r4 g'2( f'8 e' d'2) e' r1 a'4( g'8 f' e'2) fis'1 r1 r r2 d'1 d'2 d'1 d' r1 a'4( g' fis' e' fis' g' a' d') d'1 r1
-      g'4( f' e' f' g' f' e' f' g' f' e' f' g'2) c' c'4( b8 a g4 a b\breve.) b\longa~ b \bar "|."
+      r4 g'2(\p f'8 e' d'2) e' r1 a'4( g'8 f' e'2) fis'1 r1 r r2 d'1\f d'2 d'1 d' r1 a'4( g' fis' e' fis' g' a' d') d'1 r1
+      g'4( f' e' f' g' f' e' f' g' f' e' f' g'2) c' c'4( b8 a g4 a b\breve.) b\longa~ b\fermata \bar "|."
     }
   >>
   \new Lyrics \lyricsto "alto 1" {

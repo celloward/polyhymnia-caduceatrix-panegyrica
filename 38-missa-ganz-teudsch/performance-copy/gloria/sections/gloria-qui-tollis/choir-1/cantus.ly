@@ -13,8 +13,8 @@
     %pg 4
       g'8( a' b' g' a' b' c'' a' b' c'' d''2 c''8 b' a'2) g' r g'8( a' b' g' a' b' c''2 b'8 a' b' c'' d''2 c''8 b' a'2) g' r1
       a'8( b' c'' a' b' c'' d'' b' c'' d'' e''2 d''8 c'' b'2) a' r a'8( b' c'' a' b' c'' d''2 c''8 b' c'' d'' e''2 d''8 c'' b'2) a'
-      r1 c''8( d'' e'' c'' d'' e'' f'' d'' e'' f'' g''2 f''8 e'' d''2) c'' r1 r r r r g'8( a' b' g' a' b' c'' a' b' c'' d''2 c''8 b' a'4 g' g'1 fis'4 e'
-      fis'1) g' r d''2.( c''8 b' a'4 b'8 c'' d''2) d''1 r e''4( d'' c'' d'' e'' d'' c'' d'' e'' d'' e''1) e''2 e''1 d''\breve.~ d''\longa~ d'' \bar "|."
+      r1 c''8( d'' e'' c'' d'' e'' f'' d'' e'' f'' g''2 f''8 e'' d''2) c'' r1 r r r r g'8(\f a' b' g' a' b' c'' a' b' c'' d''2 c''8 b' a'4 g' g'1 fis'4 e'
+      fis'1) g' r d''2.( c''8 b' a'4 b'8 c'' d''2) d''1 r e''4( d'' c'' d'' e'' d'' c'' d'' e'' d'' e''1) e''2 e''1 d''\breve.~ d''\longa~ d''\fermata \bar "|."
     }
   >>
 
