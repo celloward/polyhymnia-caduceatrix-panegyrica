@@ -11,11 +11,14 @@
 
 global = {
   \key c \major
+  \once \override Staff.TimeSignature.style = #'single-digit
+  \set Staff.timeSignatureFraction = #'(3 . 2)
   \time 3/1
   \tempo \breve. = 50
 }
 
 duple = {
+  \set Staff.timeSignatureFraction = #'(4 . 4)
   \time 4/2
   \tempo 1 = 72
 }

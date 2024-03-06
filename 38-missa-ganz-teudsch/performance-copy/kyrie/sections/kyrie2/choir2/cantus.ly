@@ -3,6 +3,7 @@
 \new Staff <<
   \include "form.ly"
   \new Voice = "Cantus 2" <<
+    \include "../form.ly"
     \include "../../../settings/choir2/cantus.ly"
     {
       % pg 2 ln 1

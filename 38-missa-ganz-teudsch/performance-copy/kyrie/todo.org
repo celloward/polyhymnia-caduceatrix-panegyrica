@@ -28,7 +28,10 @@
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2024-02-27 Tue 20:44]
 :END:
-** TODO Get footer with name
+** DONE Get footer with name
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-03-05 Tue 19:28]
+:END:
 ** TODO Use mensural notation for meter
 ** DONE Resize to 16pt
 :LOGBOOK:

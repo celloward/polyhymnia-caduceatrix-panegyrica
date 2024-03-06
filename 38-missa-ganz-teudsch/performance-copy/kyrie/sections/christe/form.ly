@@ -1,6 +1,6 @@
 {
   \key c \major
-  \time 4/2
+  \duple
   \skip 1 * 2 * 10
   \omit Staff.TimeSignature
   \time 2/2

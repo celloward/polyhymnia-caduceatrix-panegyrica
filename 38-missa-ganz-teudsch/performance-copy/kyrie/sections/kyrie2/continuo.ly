@@ -1,7 +1,7 @@
 % \include "../../global-settings.ly"
 
 \new Staff <<
-  \include "../form.ly"
+  \include "form.ly"
   \new Voice = "Continuo" {
     \include "../../settings/continuo.ly"
     % p2 ln 6
