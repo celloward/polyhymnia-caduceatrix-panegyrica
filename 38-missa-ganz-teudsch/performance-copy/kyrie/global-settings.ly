@@ -14,13 +14,13 @@ global = {
   \once \override Staff.TimeSignature.style = #'single-digit
   \set Staff.timeSignatureFraction = #'(3 . 2)
   \time 3/1
-  \tempo \breve. = 50
+ % \tempo \breve. = 50
 }
 
 duple = {
   \set Staff.timeSignatureFraction = #'(4 . 4)
   \time 4/2
-  \tempo 1 = 72
+%  \tempo 1 = 72
 }
 
 l = {  \bar "|"  }
@@ -33,6 +33,11 @@ i = { \bar "'" }
   \context {
     \Voice
     \consists "Ambitus_engraver"
+    \remove Note_heads_engraver
+    \consists Completion_heads_engraver
+    \remove Rest_engraver
+    \consists Completion_rest_engraver
+  }
   }
   % \context {
   %   \Score

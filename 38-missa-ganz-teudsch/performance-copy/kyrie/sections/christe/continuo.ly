@@ -1,8 +1,15 @@
 %\include "../../global-settings.ly"
 
 \new Staff <<
-  \include "form.ly"
-  \new Voice = "Continuo"
+  \new Voice = "continuo"
+  \figuremode {
+    s2. s4 s2 s | s <6> <5> <6> | s1 s2 s4 s | <_+>2 s4 <6> <_+>2 s | s4 <_+> s <6> s <6> <5> <6> |
+    <_+>1 <_+>2 s4 s | <_+>2 s4 <6> <_+>2 <_+> | s4 s <5>4 <6> s1. | s2 <_+>2. <_+>4 | s2 s <_+>2. <_+>4 <_+>1 | s1 | s2 <6> s <_+> |
+    s2 s s <_+> | s4 <6> s2 <_+> s4 s | <_+>2. <6>4 s2 s | s4 <6> s2 s s | s4 <6> s s <_+>2 s |
+    s2 <6>4 <6> s2 s s s | <5>4 <6> s2 s1 | <_+>4 <6> <_+>2 s s | <_+>4 <6> <_+>2 s1 |
+  }
+  \context Voice = "continuo" <<
+      \include "form.ly"
     {
       \include "../../settings/continuo.ly"
       % p1 ln 8
@@ -12,4 +19,5 @@
       g,2 g, c d e4 b,\p c2 d g,4 g\f^\markup { "Cantus 1" } d2. e4 f2 g c4 e\p f2 g c^\markup { "Cantus 1 and 2" } c4\f b, c e d2 g
       f2 e4 f g2\p f c g\f e d c1 d4 c d2 g c\p d4 c d2 g,1\fermata \ll
     }
+  >>
 >>
