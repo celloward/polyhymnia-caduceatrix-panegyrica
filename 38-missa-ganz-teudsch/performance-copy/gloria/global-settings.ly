@@ -58,16 +58,17 @@ i = { \bar "'" }
  \paper {
    print-page-number = ##t
    print-first-page-number = ##t
-   oddHeaderMarkup = \markup \null
-   evenHeaderMarkup = \markup \null
+%   oddHeaderMarkup = \markup \null
+ %  evenHeaderMarkup = \markup \null
    oddFooterMarkup = \markup {
      \fill-line {
        \if \should-print-page-number
        \line { "Gloria - " \fromproperty #'page:page-number-string  }
      }
-     }
    }
    evenFooterMarkup = \oddFooterMarkup
+ }
+
   % system-system-spacing =
   %   #`((basic-distance . 0)
   %       (minimum-distance . 0)

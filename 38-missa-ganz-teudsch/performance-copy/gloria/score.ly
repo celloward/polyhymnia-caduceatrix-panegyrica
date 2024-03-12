@@ -6,9 +6,16 @@
     \include "sections/gloria-1/score.ly"
  %    \midi {}
   }
-  % \paper {
-  %   min-systems-per-page = 2
-  % }
+
+   \paper {
+     oddHeaderMarkup = \markup  {
+       \fill-line {
+	 \if \should-print-page-number
+	 \line { "Gloria Part 1"  }
+       }
+     }
+     evenHeaderMarkup = \oddHeaderMarkup
+   }
 }
 
 % Sinfonia
@@ -22,6 +29,21 @@
   \score {
     \include "sections/gloria-original-sinfonia/score.ly"
   %  \midi {}
+  }
+  \layout {
+    \context {
+      \Score
+      \override MeasureCounter.count-from = #'22
+    }
+  }
+  \paper {
+      oddHeaderMarkup = \markup  {
+	\fill-line {
+	   \if \should-print-page-number
+	   \line { "Sinfonia"  }
+	 }
+       }
+     evenHeaderMarkup = \oddHeaderMarkup
   }
 }
 
@@ -37,9 +59,16 @@
     \include "sections/gloria-2/score.ly"
  %   \midi {}
   }
-  % \paper {
-  %   min-systems-per-page = 2
-  % }
+
+   \paper {
+     oddHeaderMarkup = \markup {
+       \fill-line {
+	 \if \should-print-page-number
+	 \line { "Gloria Part 2" }
+       }
+     }
+     evenHeaderMarkup = \oddHeaderMarkup
+   }
 }
 
 % Qui Tollis
@@ -54,8 +83,13 @@
     \include "sections/gloria-qui-tollis/score.ly"
 %    \midi {}
   }
-
-  % \paper {
+   \paper {
+     oddHeaderMarkup = \markup {  \fill-line {
+       \if \should-print-page-number
+       \line { "Qui Tollis"  }
+     }
+     }
+     evenHeaderMarkup = \oddHeaderMarkup
   %   min-systems-per-page = 2
-  % }
+   }
 }
