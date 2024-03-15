@@ -5,7 +5,7 @@
     \include "../form.ly"
     {
      % p3
-      \global d'1 f' e' f'\breve r1 d'1 f' e' d'\breve r1 r\breve. r1 r e'1 e' e' e' e'\breve r1 r\breve. d'1 f' e' d'\breve d'1 e' e' e'
+      \global d'1^\markup {\bold "Qui tollis"} f' e' f'\breve r1 d'1 f' e' d'\breve r1 r\breve. r1 r e'1 e' e' e' e'\breve r1 r\breve. d'1 f' e' d'\breve d'1 e' e' e'
       \duple e'1 f' g'1. g2 a a a d' d'1 r1 r r c'1. b1 a2 c'1 c'2 a2~ a4( b4 c'1) a2 d'4. a8 e'4 b a1 r1
       r2 g'1 g'2 fis' e'4 g' g'1. e'2 e'4.( fis'8 g'2.) g'4 e' a' a'2( gis'4 fis' gis'1) r1 e'1 a'2 a' a'1 a' r1 r r r2 r4 g'4\p c'2 c'
       b4.( c'8 d'2) r1 r fis'2\f fis'4 g' a'8( g' g'2) fis'4 g'2 r2 r2 r4 g'4\p a'8( g' g'2) fis'4 g'1 r2 r4 d'4\f d' e' e' e'
