@@ -1,4 +1,6 @@
-%\include "../../../global-settings.ly"
+section-title = "Gloria Qui Tollis"
+%\include "../../../part-settings.ly"
+
 \new Staff <<
   \new Voice = "cantus 2" <<
     \include "../../../settings/choir2/cantus.ly"
